@@ -1,0 +1,79 @@
+% le caratteristiche richieste dall'università sono elencate qui: https://stem.elearning.unipd.it/mod/book/view.php?id=234&chapterid=46#modalita
+% 12pt: font richiesto dall'università
+% twoside: i margini interni ed esterni sono scambiati per le pagine "a sinistra" e "a destra"
+% openright: i capitoli cominciano in pagine dispari ("a destra")
+% extreport: supporta 12pt
+\documentclass[12pt,a4paper,twoside,openright]{extreport}
+
+\usepackage{amsmath}                            % per avere più controllo sulle equazioni 
+\usepackage{csquotes}                           % per le citazioni
+\usepackage{enumitem}                           % per avere più controllo sulle enumerazioni
+\usepackage[
+    a4paper,
+    top=2cm,bottom=2cm,
+    outer=2cm,inner=3cm,
+    includeheadfoot
+]{geometry}                                     % margini richiesti dall'università
+\usepackage{graphicx}                           % per le immagini
+\usepackage{icomma}                             % per separare le cifre decimali con una virgola
+\usepackage{minted}                             % per il codice con la colorazione della sintassi
+\usepackage[a-1a]{pdfx}                         % formato richiesto dall'università
+\usepackage[output-decimal-marker={,}]{siunitx} % per le unità di misura
+\usepackage{subcaption}                         % per le sottodidascalie
+\usepackage{svg}                                % per inserire file SVG
+
+\usepackage[italian]{babel}
+\selectlanguage{italian}
+
+\usepackage[backend=bibtex,style=ieee]{biblatex}
+\bibliography{bibliografia}
+
+\usepackage{fontspec}
+\setmainfont{Times New Roman} % carattere richiesto dall'università
+
+\usepackage{setspace}
+\onehalfspacing % interlinea richiesta dall'università
+
+\sloppy % per evitare che il testo in \verb finisca oltre i margini
+
+% questi valori vengono usati nella composizione del frontespizio
+\title{Blockchain e Learning Analytics: Una Nuova Frontiera per la Gestione dei Dati}
+\author{Speranza Ludovico}
+\date{GG/MM/AAAA}
+\newcommand{\supervisor}{Prof. Varagnolo Damiano}
+\newcommand{\assistantsupervisor}{Cognome Nome}
+\usepackage{wrapfig}
+\usepackage{float}
+
+\begin{document}
+    \pagenumbering{roman}
+    \pagestyle{empty} % per le prime pagine, non mostrare il numero di pagina
+
+    \input{Capitoli/frontespizio}
+    \cleardoublepage
+    
+    \input{Capitoli/dedica}
+    \cleardoublepage
+
+    \pagestyle{plain} % comincia a mostrare il numero di pagina
+
+    % NOTA: l'ambiente \abstract rimuove il numero della pagina e resetta il contatore delle pagine. 
+    \chapter*{Sommario}
+    Descrizione dell'obiettivo della tesi.
+    \cleardoublepage
+
+    \tableofcontents
+    \cleardoublepage
+    
+    \listoffigures
+    \cleardoublepage % per assicurarsi che la numerazione araba cominci col primo capitolo
+    
+    \pagenumbering{arabic}
+
+    \input{Capitoli/Introduzione_Blockchain}
+    \input{Capitoli/Blockchain_e_sicurezza}
+    \cleardoublepage
+    \input{Capitoli/Conclusioni.tex}
+    \cleardoublepage
+    \printbibliography[heading=bibintoc]
+\end{document}

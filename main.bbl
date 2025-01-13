@@ -1,0 +1,104 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{none/global//global/global/global}
+  \entry{La_quarta_rivoluzione_industriale}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=kS}{%
+         prefix={klaus},
+         prefixi={k\bibinitperiod},
+         family={Schwab},
+         familyi={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {FrancoAngeli}%
+    }
+    \strng{namehash}{Sk1}
+    \strng{fullhash}{Sk1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{isbn}{9788891743008}
+    \field{title}{La quarta rivoluzione industriale}
+    \field{year}{2019}
+  \endentry
+
+  \entry{Blockchain_guida_allecosistema}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=AN}{%
+         family={Attico},
+         familyi={A\bibinitperiod},
+         given={Nicola},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Guerini Next}%
+    }
+    \strng{namehash}{AN1}
+    \strng{fullhash}{AN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{isbn}{9788868962180}
+    \field{title}{Blockchain, guida all'ecosistema}
+    \field{year}{2018}
+  \endentry
+
+  \entry{Blockchain_tecnologia_e_applicazioni_per_il_business}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=GCRBJR}{%
+         family={Gianluca\bibnamedelima Chiap},
+         familyi={G\bibinitperiod\bibinitdelim C\bibinitperiod},
+         suffix={Jacopo\bibnamedelima Ranalli},
+         suffixi={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+         given={Raffaele\bibnamedelima Bianchi},
+         giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Hoepli}%
+    }
+    \strng{namehash}{GCJRRB1}
+    \strng{fullhash}{GCJRRB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{isbn}{9788820389253}
+    \field{title}{Blockchain, tecnologia e applicazioni per il business}
+    \field{year}{2019}
+  \endentry
+
+  \entry{ted_youtube}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=T}{%
+         family={TED},
+         familyi={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{T1}
+    \strng{fullhash}{T1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{Accessed: 2023-10-01}
+    \field{title}{Tim Berners-Lee on the Next Web}
+    \verb{url}
+    \verb https://www.youtube.com/watch?v=OM6XIICm_qo&ab_channel=TED
+    \endverb
+    \field{year}{2009}
+  \endentry
+\enddatalist
+\endinput

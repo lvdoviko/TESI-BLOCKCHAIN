@@ -1,0 +1,13 @@
+\babel@toc {italian}{}\relax 
+\babel@toc {italian}{}\relax 
+\babel@toc {italian}{}\relax 
+\contentsline {chapter}{\numberline {1}Blockchain}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Blokchain 1.0}{4}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Bitcoin}{4}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Proof Of Work}{6}{subsection.1.1.2}%
+\contentsline {section}{\numberline {1.2}Blokchain 2.0}{8}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Ethereum e Proof Of Stake}{8}{subsection.1.2.1}%
+\contentsline {chapter}{\numberline {2}Sicurezza}{11}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Benefici in termini di privacy e sicurezza}{11}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Introduzione al web 3.0}{11}{section.2.2}%
+\contentsline {chapter}{Bibliografia}{13}{chapter*.9}%
