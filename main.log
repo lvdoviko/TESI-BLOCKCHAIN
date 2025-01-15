@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.1.9)  15 JAN 2025 19:09
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.1.9)  15 JAN 2025 20:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1403,7 +1403,10 @@ File: Immagini/proof of work scheme.jpg Graphic file (type bmp)
 Capitolo 2.
 
 
-[11])
+[11]
+File: Immagini/web_30.png Graphic file (type bmp)
+<Immagini/web_30.png>
+)
 
 [12] (Capitoli/Conclusioni.tex)
 Underfull \hbox (badness 10000) in paragraph at lines 78--78
@@ -1419,7 +1422,7 @@ U/TimesNewRoman(0)/m/sc/12 isbn\TU/TimesNewRoman(0)/m/n/12 :
 
 
 ]
-runsystem(latexminted cleantemp  --timestamp 20250115190924 FAD58DE7366495DB465
+runsystem(latexminted cleantemp  --timestamp 20250115200129 FAD58DE7366495DB465
 0CFEFAC2FCD61)...disabled (restricted).
 
  (main.aux)
@@ -1432,7 +1435,7 @@ L3 programming layer <2024-12-09>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 5088DC1FBAE9F4E7C39D3D40B340CC19;1416.
+(rerunfilecheck)             Checksum: 9994955B2D683F77E6CA262BDD44F872;1417.
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
 (biblatex)                main
@@ -1443,10 +1446,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35866 strings out of 408685
- 756546 string characters out of 5749082
- 1544847 words of memory out of 5000000
- 58469 multiletter control sequences out of 15000+600000
+ 35875 strings out of 408685
+ 756756 string characters out of 5749082
+ 1545848 words of memory out of 5000000
+ 58477 multiletter control sequences out of 15000+600000
  562055 words of font info for 76 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  94i,8n,93p,1905b,5289s stack positions out of 10000i,1000n,20000p,200000b,200000s

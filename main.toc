@@ -10,4 +10,4 @@
 \contentsline {chapter}{\numberline {2}Sicurezza}{11}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Benefici in termini di privacy e sicurezza}{11}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Introduzione al web 3.0}{11}{section.2.2}%
-\contentsline {chapter}{Bibliografia}{13}{chapter*.9}%
+\contentsline {chapter}{Bibliografia}{13}{chapter*.10}%
