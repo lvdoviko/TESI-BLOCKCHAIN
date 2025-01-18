@@ -82,6 +82,127 @@
     \field{year}{2019}
   \endentry
 
+  \entry{borroni_blockchain_2019}{incollection}{}{}
+    \name{author}{1}{}{%
+      {{hash=BA}{%
+         family={Borroni},
+         familyi={B\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \name{editor}{1}{}{%
+      {{hash=BA}{%
+         family={Borroni},
+         familyi={B\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Pubblicazioni del Dipartimento di Scienze Politiche Jean Monnet
+  dell’Università degli Studi della Campania Luigi Vanvitelli, ESI}%
+    }
+    \strng{namehash}{BA1}
+    \strng{fullhash}{BA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Legal Perspective on Blockchain Theory, Outcomes, and
+  Outlooks}
+    \field{title}{Blockchain: Uses and Potential Value}
+    \field{year}{2019}
+  \endentry
+
+  \entry{rodota_quattro_paradigmi_2018}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=RS}{%
+         family={Rodotà},
+         familyi={R\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Vivere la democrazia}%
+    }
+    \strng{namehash}{RS1}
+    \strng{fullhash}{RS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{20 ss}
+    \field{title}{Quattro paradigmi per l’identità}
+    \list{location}{1}{%
+      {Bari}%
+    }
+    \field{year}{2018}
+  \endentry
+
+  \entry{alpa_identita_digitale_2017}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=AG}{%
+         family={Alpa},
+         familyi={A\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AG1}
+    \strng{fullhash}{AG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{725}
+    \field{title}{L’identità digitale e la tutela della persona. Spunti di
+  riflessione}
+    \field{journaltitle}{CONTR. IMPR.}
+    \field{year}{2017}
+  \endentry
+
+  \entry{de_filippi_interplay_2016}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=FPD}{%
+         family={Filippi},
+         familyi={F\bibinitperiod},
+         given={P.\bibnamedelima De},
+         giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FPD1}
+    \strng{fullhash}{FPD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{1}
+    \field{title}{The Interplay Between Decentralization and Privacy: The Case
+  of Blockchain Technologies}
+    \list{location}{1}{%
+      {Paris}%
+    }
+    \field{year}{2016}
+  \endentry
+
+  \entry{marr_history_blockchain_2018}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=MB}{%
+         family={Marr},
+         familyi={M\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MB1}
+    \strng{fullhash}{MB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{Forbes}
+    \field{note}{Accessed: 2023-10-01}
+    \field{title}{A Very Brief History of Blockchain Technology Everyone Should
+  Read}
+    \verb{url}
+    \verb https://www.forbes.com/sites/bernardmarr/2018/02/16/a-very-brief-hist
+    \verb ory-of-blockchain-technology-everyone-should-read
+    \endverb
+    \field{year}{2018}
+  \endentry
+
   \entry{ted_youtube}{misc}{}{}
     \name{author}{1}{}{%
       {{hash=T}{%
