@@ -8,6 +8,7 @@ In questa prospettiva, non va dimenticato che la natura pseudonima di molte
 reti che si basano sulla blockchain consente agli individui la possibilità di
 condurre le proprie transazioni su base peer-to-peer, senza la necessità di
 rivelare la propria identità alle controparti.
+\subsection{Il difficile rapporto tra trasparenza e privacy}
 Allo stesso tempo, la trasparenza derivante dalle distributed ledger technologies è tale che chiunque ha la possibilità di accedere alla
 cronologia di tutte le transazioni memorizzate sulla blockchain, affidandosi così all’analisi dei dati in essa contenuti per ricavare informazioni potenzialmente sensibili \cite{marr_history_blockchain_2018}.
 Se il sistema non viene progettato con la dovuta attenzione, la trasparenza potrebbe compromettere la tutela della privacy degli utenti, in quanto questi avrebbero
@@ -27,8 +28,25 @@ La natura decentralizzata della blockchain non solo garantisce livelli più elev
 consentendo l'accesso anche a terze parti. Questo approccio ricorda quello degli open data, ma con meccanismi e logiche significativamente diversi.
 \\Per quanto riguarda la struttura, gran parte delle architetture decentralizzate disponibili per gli utenti sono progettate con l'obiettivo di favorire la privacy, focalizzandosi su almeno uno dei due paradigmi fondamentali: la riservatezza dei dati e la “sovranità” su di essi.
 \\In questa prospettiva, la decentralizzazione che caratterizza la blockchain offre un potenziale significativo per ridurre le asimmetrie informative che si verificano quando una delle parti coinvolte in una transazione possiede informazioni rilevanti che l'altra parte non conosce, le quali, nei sistemi centralizzati, tendono a creare vantaggi per gli operatori a discapito degli utenti.
-
-\section{Introduzione al web 3.0}
+\\Tuttavia, va evidenziato che, allo stato attuale, persistono numerose complessità nel comprendere appieno come privacy e trasparenza possano interagire tra loro.
+In una società “trasparente”, da un lato, qualsiasi parte interessata può facilmente accedere alle informazioni. Questo implica che la trasparenza sociale possa compromettere il diritto alla privacy. Di conseguenza, è legittimo associare una crescente trasparenza delle informazioni a un ridotto rispetto del diritto alla privacy.
+In tale contesto, la trasparenza offerta dalle DLTs non è né totale né incondizionata. 
+\subsection{Blockchain Permissioned e Permissionless}
+Le diverse tipologie di blockchain, infatti, possono garantire vari livelli di trasparenza. Esistono, in particolare, due tipologie di blockchain: 
+\begin{itemize}
+    \item [\textit{permissioned}:] in cui una sola autorità ha il permesso di scrivere sulla blockchain e detiene praticamente il controllo del sistema distribuito.
+    \item [\textit{permissionless}:] in cui chiunque può partecipare come nodo, verificare transazioni e aggiungere blocchi al registro e tutti i dati delle transazioni sono visibili e accessibili a chiunque abbia accesso alla rete, anche se non tutti possono necessariamente scrivere nella blockchain (ma chiunque può leggere i dati).
+\end{itemize}
+Soprattutto nel caso delle blockchain permissioned, le transazioni (o scambi, scrittura delle informazioni) avvengono all’interno di un ecosistema chiuso, dove i dati registrati sono mantenuti riservati e le identità dei partecipanti sono note.
+\subsection{Crittografia End-to-End e responsabilità degli algoritmi}
+Da un punto di vista pratico, i problemi di privacy legati al livello di trasparenza della blockchain possono essere attenuati mediante la crittografia “end-to-end” delle comunicazioni, che utilizza chiavi private e pubbliche, anziché una chiave unica per crittografare e decrittografare.
+\\Il principio implica che, ove possibile, le operazioni del protocollo di comunicazione debbano essere eseguite ai punti finali di un sistema di comunicazione, o comunque il più vicino possibile alla risorsa da controllare.
+In particolare, le aspettative sociali riguardo la trasparenza e la supervisione degli algoritmi sono in forte crescita, con l’obiettivo di rendere i sistemi decisionali automatizzati più responsabili, trasparenti e governabili. Si sta cercando di dotare questi sistemi di nuovi strumenti tecnologici per verificare che le decisioni automatizzate rispettino standard di equità giuridica. 
+Garantire la responsabilità attraverso valutazioni d’impatto degli algoritmi (AIA), audit e certificazioni dovrebbe diventare parte integrante delle iniziative politiche e legali in questo ambito, considerando che la blockchain, al momento, non è stata ancora completamente implementata.
+\\
+\\
+\\
+\section{Web 3.0}
 L'idea del Web 3.0 è stata inzialmente utilizzata in stretta connessione con il concetto di web semantico, terminologia creata da Berners Lee in un articolo di \textit{Scientific American} del 2001 per descrivere un nuovo web. 
 La sua idea è che, così come il web 2.0 permette di collegare pagine web, a livello di visualizzazione, il web semantico deve permettere non solo di collegare pagine tra loro ma anche i dati contenuti in esse \cite{ted_youtube}.
 La visone del web semantico è una visione di dati interconnessi e navigabili che possono essere usati da chiunque. L'esigenza di socializzazione dei dati è ancora più importante oggi che l'intelligenza artificiale può costruire modelli a partire dai dati grezzi, sulla base di algoritmi generali.
