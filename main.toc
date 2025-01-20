@@ -8,6 +8,6 @@
 \contentsline {section}{\numberline {1.2}Blokchain 2.0}{8}{section.1.2}%
 \contentsline {subsection}{\numberline {1.2.1}Ethereum e Proof Of Stake}{8}{subsection.1.2.1}%
 \contentsline {chapter}{\numberline {2}Sicurezza}{11}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Benefici in termini di privacy e sicurezza}{11}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Introduzione al web 3.0}{11}{section.2.2}%
+\contentsline {section}{\numberline {2.1}Privacy e sicurezza}{11}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Introduzione al web 3.0}{12}{section.2.2}%
 \contentsline {chapter}{Bibliografia}{15}{chapter*.10}%
