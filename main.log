@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.1.9)  20 JAN 2025 19:50
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.1.9)  24 JAN 2025 11:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1454,12 +1454,20 @@ U/TimesNewRoman(0)/m/sc/12 isbn\TU/TimesNewRoman(0)/m/n/12 :
  []
 
 
+Underfull \hbox (badness 1558) in paragraph at lines 81--81
+[]\TU/TimesNewRoman(0)/m/n/12 P. D. Filippi, \TU/TimesNewRoman(0)/m/it/12 The I
+nterplay Between Decentralization and Privacy: The Case of
+ []
+
+
 
 [17
 
 
 ]
-runsystem(latexminted cleantemp  --timestamp 20250120195050 FAD58DE7366495DB465
+
+[18]
+runsystem(latexminted cleantemp  --timestamp 20250124115559 FAD58DE7366495DB465
 0CFEFAC2FCD61)...disabled (restricted).
 
  (main.aux)
@@ -1483,12 +1491,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35900 strings out of 408685
- 758025 string characters out of 5749082
- 1546070 words of memory out of 5000000
- 58502 multiletter control sequences out of 15000+600000
+ 35913 strings out of 408685
+ 758754 string characters out of 5749082
+ 1546345 words of memory out of 5000000
+ 58515 multiletter control sequences out of 15000+600000
  562055 words of font info for 76 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 94i,8n,93p,1905b,5289s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,8n,93p,1905b,6889s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (27 pages).
+Output written on main.pdf (28 pages).

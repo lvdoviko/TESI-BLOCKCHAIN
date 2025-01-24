@@ -203,6 +203,69 @@
     \field{year}{2018}
   \endentry
 
+  \entry{zambardino_blockchain_2022}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=ZF}{%
+         family={Zambardino},
+         familyi={Z\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ZF1}
+    \strng{fullhash}{ZF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{23\bibrangedash 38}
+    \field{title}{La blockchain nel mercato del lavoro italiano con particolare
+  enfasi sulla questione privacy e il rapporto con il General Data Protection
+  Regulation}
+    \field{journaltitle}{TSL}
+    \field{year}{2022}
+  \endentry
+
+  \entry{mayes_privacy_transparency_2018}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=MGR}{%
+         family={Mayes},
+         familyi={M\bibinitperiod},
+         given={G.\bibnamedelima R.},
+         giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MGR1}
+    \strng{fullhash}{MGR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{125\bibrangedash 129}
+    \field{title}{Privacy and Transparency}
+    \list{institution}{1}{%
+      {Sacramento State University, Department of Philosophy}%
+    }
+    \field{year}{2018}
+  \endentry
+
+  \entry{bridge_blockchain_2018}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=BC}{%
+         family={Bridge},
+         familyi={B\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BC1}
+    \strng{fullhash}{BC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{Concettualmente, in particolare, «[c]loud storage allows the
+  user to store data and information online. This serves as a backup in case
+  the data is lost and could be used to secure large amounts of data». Ibid}
+    \field{title}{Blockchain’s Next Frontier: Cloud Computing?}
+    \field{journaltitle}{Inv. Mark’t Bus. Res.}
+    \field{year}{2018}
+  \endentry
+
   \entry{ted_youtube}{misc}{}{}
     \name{author}{1}{}{%
       {{hash=T}{%
