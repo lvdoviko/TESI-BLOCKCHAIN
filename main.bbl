@@ -82,6 +82,50 @@
     \field{year}{2019}
   \endentry
 
+  \entry{crypto_gateway_video}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=iCTCGI}{%
+         prefix={in},
+         prefixi={i\bibinitperiod},
+         family={Criptovalute},
+         familyi={C\bibinitperiod},
+         given={The Crypto Gateway\bibnamedelima Investire},
+         giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim
+  G\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CTCGIi1}
+    \strng{fullhash}{CTCGIi1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{Accessed: 2023-10-01}
+    \field{title}{Ethereum: The Merge Explained}
+    \verb{url}
+    \verb https://www.youtube.com/watch?v=EOeNrCzVvfs&t=2598s&ab_channel=TheCry
+    \verb ptoGateway-InvestireinCriptovalute
+    \endverb
+    \field{year}{2022}
+  \endentry
+
+  \entry{kraken_docsend}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=K}{%
+         family={Kraken},
+         familyi={K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{K1}
+    \strng{fullhash}{K1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{Accessed: 2023-10-01}
+    \field{title}{Documentazione su Kraken}
+    \verb{url}
+    \verb https://kraken.docsend.com/view/58b6xidjxk44xedc
+    \endverb
+    \field{year}{2023}
+  \endentry
+
   \entry{borroni_blockchain_2019}{incollection}{}{}
     \name{author}{1}{}{%
       {{hash=BA}{%
@@ -264,6 +308,66 @@
     \field{title}{Blockchain’s Next Frontier: Cloud Computing?}
     \field{journaltitle}{Inv. Mark’t Bus. Res.}
     \field{year}{2018}
+  \endentry
+
+  \entry{reisman_algorithmic_2018}{misc}{}{}
+    \name{author}{4}{}{%
+      {{hash=RD}{%
+         family={Reisman},
+         familyi={R\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Schultz},
+         familyi={S\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=CK}{%
+         family={Crawford},
+         familyi={C\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=WM}{%
+         family={Whittaker},
+         familyi={W\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RD+1}
+    \strng{fullhash}{RDSJCKWM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{Consultato il 08 giugno 2022}
+    \field{title}{Algorithmic Impact Assessment: A Practical Framework for
+  Public Agency Accountability}
+    \verb{url}
+    \verb https://ainowinstitute.org/aiareport2018.pdf
+    \endverb
+    \list{institution}{1}{%
+      {AINOW Institute}%
+    }
+    \field{year}{2018}
+  \endentry
+
+  \entry{zhang_end_to_end_3}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=ZL}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ZL1}
+    \strng{fullhash}{ZL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{cit., 3}
+    \field{title}{End to end architecture}
   \endentry
 
   \entry{ted_youtube}{misc}{}{}

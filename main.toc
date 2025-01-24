@@ -7,6 +7,8 @@
 \contentsline {subsection}{\numberline {1.1.2}Proof Of Work}{6}{subsection.1.1.2}%
 \contentsline {section}{\numberline {1.2}Blokchain 2.0}{8}{section.1.2}%
 \contentsline {subsection}{\numberline {1.2.1}Ethereum e Proof Of Stake}{8}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Smart Contracts}{8}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Vantaggi e svantaggi del PoS}{9}{subsection.1.2.3}%
 \contentsline {chapter}{\numberline {2}Sicurezza}{11}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Privacy e sicurezza}{11}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Il difficile rapporto tra trasparenza e privacy}{11}{subsection.2.1.1}%
