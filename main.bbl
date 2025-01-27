@@ -388,5 +388,24 @@
     \endverb
     \field{year}{2009}
   \endentry
+
+  \entry{wikipedia_learning_analytics}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=W}{%
+         family={{Wikipedia contributors}},
+         familyi={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{W1}
+    \strng{fullhash}{W1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{Accessed: 2023-10-01}
+    \field{title}{Learning Analytics}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/Learning_analytics
+    \endverb
+    \field{year}{2023}
+  \endentry
 \enddatalist
 \endinput
