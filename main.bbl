@@ -407,5 +407,139 @@
     \endverb
     \field{year}{2023}
   \endentry
+
+  \entry{barnes_stamper_2008}{inproceedings}{}{}
+    \name{author}{2}{}{%
+      {{hash=BT}{%
+         family={Barnes},
+         familyi={B\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Stamper},
+         familyi={S\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer, Berlin, Heidelberg}%
+    }
+    \strng{namehash}{BTSJ1}
+    \strng{fullhash}{BTSJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{International Conference on Intelligent Tutoring Systems}
+    \field{pages}{373\bibrangedash 382}
+    \field{title}{Toward automatic hint generation for logic proof tutoring
+  using historical student data}
+    \field{year}{2008}
+  \endentry
+
+  \entry{ocheja2018connecting}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=OP}{%
+         family={Ocheja},
+         familyi={O\bibinitperiod},
+         given={Patrick},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=FB}{%
+         family={Flanagan},
+         familyi={F\bibinitperiod},
+         given={Brendan},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=OH}{%
+         family={Ogata},
+         familyi={O\bibinitperiod},
+         given={Hiroaki},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{OP+1}
+    \strng{fullhash}{OPFBOH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1145/3170358.3170365
+    \endverb
+    \field{note}{Author's version - not the published version. Cite published
+  version.}
+    \field{pages}{265\bibrangedash 269}
+    \field{title}{Connecting Decentralized Learning Records: A Blockchain Based
+  Learning Analytics Platform}
+    \verb{url}
+    \verb http://hdl.handle.net/2433/231940
+    \endverb
+    \field{journaltitle}{Proceedings of the 8th International Conference on
+  Learning Analytics and Knowledge}
+    \field{year}{2018}
+  \endentry
+
+  \entry{Learning_Analytics_Privacy_on_the_Blockchain}{inproceedings}{}{}
+    \name{author}{5}{}{%
+      {{hash=FMA}{%
+         family={Forment},
+         familyi={F\bibinitperiod},
+         given={Marc\bibnamedelima Alier},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=FDA}{%
+         family={Filvà},
+         familyi={F\bibinitperiod},
+         given={Daniel\bibnamedelima Amo},
+         giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=GPFJ}{%
+         family={García-Peñalvo},
+         familyi={G\bibinithyphendelim P\bibinitperiod},
+         given={Francisco\bibnamedelima Jose},
+         giveni={F\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=EDF}{%
+         family={Escudero},
+         familyi={E\bibinitperiod},
+         given={David\bibnamedelima Fonseca},
+         giveni={D\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=CMJ}{%
+         family={Casany},
+         familyi={C\bibinitperiod},
+         given={Maria\bibnamedelima José},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \name{editor}{1}{}{%
+      {{hash=GPFJ}{%
+         family={García-Peñalvo},
+         familyi={G\bibinithyphendelim P\bibinitperiod},
+         given={F.\bibnamedelima J.},
+         giveni={F\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {ACM}%
+    }
+    \strng{namehash}{FMA+1}
+    \strng{fullhash}{FMAFDAGPFJEDFCMJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Proceedings of the 6th International Conference on
+  Technological Ecosystems for Enhancing Multiculturality (TEEM 2018)}
+    \verb{doi}
+    \verb 10.1145/3284179.3284231
+    \endverb
+    \field{pages}{5}
+    \field{title}{Learning Analytics’ Privacy on the Blockchain}
+    \verb{url}
+    \verb https://doi.org/10.1145/3284179.3284231
+    \endverb
+    \list{location}{1}{%
+      {New York, NY, USA}%
+    }
+    \field{year}{2018}
+  \endentry
 \enddatalist
 \endinput

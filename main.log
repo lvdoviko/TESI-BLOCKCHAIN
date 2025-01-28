@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.1.9)  27 JAN 2025 19:48
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.1.9)  28 JAN 2025 17:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1445,11 +1445,59 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 ]
 Capitolo 3.
+File: Immagini/Dragan Gasevic.jpg Graphic file (type bmp)
+<Immagini/Dragan Gasevic.jpg>
+
+Package caption Warning: \setcaptionsubtype
+(caption)                outside box or environment on input line 8.
+See the caption package documentation for explanation.
 
 
-[17])
+Package caption Warning: \subcaption
+(caption)                outside box or environment on input line 8.
+See the caption package documentation for explanation.
 
-[18] (Capitoli/Conclusioni.tex)
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+[]\TU/TimesNewRoman(0)/m/n/10.95 (a) |Padre di Learning
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--9
+\TU/TimesNewRoman(0)/m/n/12 La delicata tematica di privacy e sicurezza affront
+ata nel capitolo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--9
+\TU/TimesNewRoman(0)/m/n/12 precedente, caratterizza fortemente il ramo del Lea
+rning Analytics.
+ []
+
+
+Underfull \hbox (badness 2197) in paragraph at lines 18--19
+[]\TU/TimesNewRoman(0)/m/n/12 Ai docenti che possono adattare i contenuti dei c
+orsi in
+ []
+
+
+
+[17]
+
+[18]
+
+[19]
+
+[20]
+File: Immagini/EduCTX.PNG Graphic file (type bmp)
+<Immagini/EduCTX.PNG>
+)
+
+[21]
+
+[22
+
+] (Capitoli/Conclusioni.tex)
 Underfull \hbox (badness 10000) in paragraph at lines 82--82
 []\TU/TimesNewRoman(0)/m/n/12 klaus Schwab, \TU/TimesNewRoman(0)/m/it/12 La qua
 rta rivoluzione industriale\TU/TimesNewRoman(0)/m/n/12 . FrancoAngeli, 2019, \T
@@ -1464,14 +1512,13 @@ nterplay Between Decentralization and Privacy: The Case of
 
 
 
-[19
-
+[23
 
 
 ]
 
-[20]
-runsystem(latexminted cleantemp  --timestamp 20250127194859 FAD58DE7366495DB465
+[24]
+runsystem(latexminted cleantemp  --timestamp 20250128174241 FAD58DE7366495DB465
 0CFEFAC2FCD61)...disabled (restricted).
 
  (main.aux)
@@ -1484,7 +1531,7 @@ L3 programming layer <2024-12-09>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 584067910E840B1274A0144102585822;3112.
+(rerunfilecheck)             Checksum: ACFA7D8B93A0E5DA5F8A35D769A63BF4;4655.
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
 (biblatex)                main
@@ -1495,12 +1542,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35941 strings out of 408685
- 760047 string characters out of 5749082
- 1536774 words of memory out of 5000000
- 58540 multiletter control sequences out of 15000+600000
- 562055 words of font info for 76 fonts, out of 8000000 for 9000
+ 35978 strings out of 408685
+ 761432 string characters out of 5749082
+ 1538683 words of memory out of 5000000
+ 58573 multiletter control sequences out of 15000+600000
+ 562063 words of font info for 77 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 94i,8n,93p,1905b,6951s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,8n,93p,1905b,6949s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (30 pages).
+Output written on main.pdf (34 pages).
