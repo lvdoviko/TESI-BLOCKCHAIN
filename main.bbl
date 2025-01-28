@@ -541,5 +541,42 @@
     }
     \field{year}{2018}
   \endentry
+
+  \entry{EduCTX}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=KMTMHKKMHA}{%
+         family={Kamišalić},
+         familyi={K\bibinitperiod},
+         given={Muhamed Turkanović; Marko Hölbl; Kristjan Košič; Marjan
+  Heričko;\bibnamedelima Aida},
+         giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim
+  M\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim
+  K\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim
+  M\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{KMTMHKKMHA1}
+    \strng{fullhash}{KMTMHKKMHA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1109/ACCESS.2018.2789929
+    \endverb
+    \field{issn}{2169-3536}
+    \field{note}{Funding Agency: Slovenian Research Agency (Research Core
+  Funding), Grant Number: P2-0057}
+    \field{pages}{5112\bibrangedash 5127}
+    \field{title}{EduCTX: A Blockchain-Based Higher Education Credit Platform}
+    \verb{url}
+    \verb https://doi.org/10.1109/ACCESS.2018.2789929
+    \endverb
+    \field{volume}{6}
+    \field{journaltitle}{IEEE Access}
+    \field{year}{2018}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
 \enddatalist
 \endinput

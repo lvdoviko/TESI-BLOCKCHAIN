@@ -70,10 +70,10 @@ inoltre potrebbero essere validi solo per periodi di tempo limitati e vincolati 
 \'E facile notare come la nascita di una piattaforma che necessita questi requisiti sarebbe molto più spontanea e naturale e meno costosa se 
 fosse inserita in un ecosistema che la favorisse soddisfandone già a sua volta i requisiti, è importante quindi evidenziare ancora una volta
 l'importanza che avrebbe il passaggio del web da 2.0 a 3.0 e gli innumerevoli vantaggi che ciò porterebbe.
-\\Nei paragrafi che seguiranno andremo a vedere nel dettaglio tre esempi tangibili di Learning Ananlytics platform Blockchain-based che sono al momento dispobili sul web.
+\\Nei paragrafi che seguiranno andremo a vedere nel dettaglio un esempio tangibile di Learning Ananlytics platform Blockchain-based che sono al momento dispobili sul web.
 \newpage
 \section{EduCTX}
-La più importante piattaforma di Learning Analytics basata su Blockchain è EduCTX, sviluppata da un consorzio di università europee sfrutta la Blockchain 2.0 di Ethereum incentrata sugli smart contracts.
+La più importante piattaforma di Learning Analytics basata su Blockchain è EduCTX, sviluppata da un consorzio di università europee sfrutta la Blockchain 2.0 di Ethereum con lo scopo di gestire i crediti e le valutazioni nell'istruzione superiore.
 \\Al momento questa piattaforma presenta due versioni, la versione 1.2 sulla quale noi focalizzeremo il nostro interesse in quanto costruita su Blockchain
 sfruttando il portale di registrazione MetaMask e la versione 2.0 che invece si basa su Microsoft Azure Active Directory un servizio di gestione d'identità centralizzato basato su cloud.
 \begin{figure}[h]
@@ -83,7 +83,51 @@ sfruttando il portale di registrazione MetaMask e la versione 2.0 che invece si 
 \end{figure}
 
 \subsection{Struttura}
+La piattaforma EduCTX è concepita per elaborare, gestire e controllare i token ECTX come crediti accademici, basandosi su una rete P2P globalmente distribuita, 
+in cui i nodi della rete blockchain sono gli istituti di istruzione superiore (HEI), mentre gli utenti della piattaforma sono studenti e organizzazioni.
+\\I token ECTX rappresentano l’equivalente del valore dei crediti ottenuti dagli studenti per i corsi completati.
+\\Ogni studente disporrà di un portafoglio blockchain dedicato sulla piattaforma EduCTX, in cui potrà raccogliere i token ECTX, ossia il valore dei crediti assegnati dall’HEI per i corsi completati. 
+\\Ogni volta che uno studente completa un corso, l’HEI di appartenenza trasferirà il numero appropriato di token ECTX al suo indirizzo blockchain. 
+\\Le informazioni sul trasferimento vengono archiviate sulla blockchain, 
+includendo i seguenti dati: 
+\begin{itemize}
+    \item il mittente, identificato come l’HEI con il suo nome ufficiale.
+    \item il destinatario, presentato in modo anonimo.
+    \item il token - valore del credito del corso.
+    \item l’identificazione del corso.
+\end{itemize}
+Inoltre, utilizzando il proprio indirizzo blockchain, lo studente, in qualità di destinatario dei token ECTX, può dimostrare globalmente i corsi completati, senza ostacoli amministrativi, di traduzione o linguistici, semplicemente presentando il suo indirizzo blockchain. 
+\\Per garantire la sicurezza, agli studenti viene assegnato un indirizzo con firma multipla 2-2 da parte dell’HEI di appartenenza, impedendo loro di trasferire i token ECTX guadagnati verso altri indirizzi. 
+\\Il processo di assegnazione dei token ECTX agli studenti e la loro capacità di dimostrarne il possesso sono gestiti tramite un client API blockchain EduCTX facile da usare che rende l’utilizzo della piattaforma il più intuitivo possibile.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.65\textwidth]{Immagini/EduCTX_blockchain_structure.jpg}
+    \caption{EduCTX struttura blockchain}
+\end{figure}
 
-\subsection{Come avviene la registrazione degli studenti}
-\section{Sony Global Education}
-\section{Blockcherts}
+\subsection{Registrazione degli HEI}
+Qualsiasi HEI accreditato e i suoi membri potranno entrare a far parte della rete. 
+Per aderire, l’HEI dovrà configurare un nodo di rete per mantenere un’infrastruttura globale e una rete sicura. 
+Un nodo completamente funzionante trasmette messaggi attraverso la rete, primo passo del processo di transazione che porta alla conferma di un blocco, e quindi alla conferma del trasferimento dei crediti ECTX agli studenti per i corsi completati. 
+Il nodo HEI include anche il client blockchain EduCTX principale nel proprio server, con la replica completa del registro blockchain. Questo aumenta la sicurezza, poiché un numero maggiore di nodi rende la rete più sicura.
+Gli HEI, e quindi i nodi, non minano le transazioni, poiché la piattaforma blockchain EduCTX è basata sul protocollo di consenso DPoS. Pertanto, non è necessaria alcuna potenza di calcolo da parte del nodo HEI. 
+Questo approccio è inoltre appropriato dal punto di vista della sicurezza per la rete EduCTX, poiché peer casuali non possono unirsi alla rete e generare nuovi token ECTX attraverso il mining. Di conseguenza, la blockchain EduCTX può essere considerata una versione consortile di una blockchain, ovvero una via di mezzo tra una blockchain permissioned e permissionless.
+\\Ogni nuovo HEI che si unisce alla rete e viene verificato dagli altri membri HEI, riceve un’assegnazione iniziale di token ECTX e viene invitato a configurare un nodo di rete. Essendo una blockchain DPoS, ogni membro HEI può registrarsi come delegato nella piattaforma blockchain EduCTX e la comunità HEI vota un delegato che conferma le transazioni e sigilla i blocchi. 
+Questo implica che la comunità vota per l’HEI più attivo e continuo nel suo lavoro. 
+Per garantire una versione permissioned della piattaforma blockchain e una comunità democratica e senza scopo di lucro, la ricompensa per il forging è nulla \cite{EduCTX}.
+
+\subsection{Registrazione degli studenti}
+Quando uno studente si immatricola presso un HEI (membro della rete blockchain EduCTX), l'istituto emette un ID studente e genera un nuovo indirizzo blockchain per lo studente, contenente una chiave pubblica e una chiave privata
+e anche un nuovo indirizzo blockchain con firma multipla 2-2 utilizzando la propria chiave pubblica e quella appena generata dello studente. 
+\\Questo indirizzo con firma multipla, insieme all'ID studente, viene memorizzato nel database dell'HEI.
+\\L'HEI trasferisce 0,1 token ECTX all'indirizzo blockchain con firma multipla 2-2 dello studente e, tramite un canale privato, fornisce allo studente le informazioni necessarie per configurare il portafoglio blockchain. 
+\newpage
+Le informazioni fornite includono:
+\begin{itemize}
+    \item Istruzioni per configurare un portafoglio blockchain EduCTX.
+    \item L'indirizzo blockchain dello studente, contenente chiavi pubbliche e private.
+    \item La chiave pubblica dell'HEI.
+    \item Lo script di riscatto (redeem script).
+\end{itemize}
+Con le informazioni ricevute, lo studente configura il proprio portafoglio blockchain e un singolo indirizzo utilizzando le chiavi pubbliche e private fornite dall'amministrazione dell'HEI.
+\section{Sony Global Education e Blockcherts}
