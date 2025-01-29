@@ -2,13 +2,14 @@
 \babel@toc {italian}{}\relax 
 \babel@toc {italian}{}\relax 
 \contentsline {chapter}{\numberline {1}Blockchain}{1}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Blokchain 1.0}{4}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}Bitcoin}{4}{subsection.1.1.1}%
-\contentsline {subsection}{\numberline {1.1.2}Proof Of Work}{6}{subsection.1.1.2}%
-\contentsline {section}{\numberline {1.2}Blokchain 2.0}{8}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Ethereum e Proof Of Stake}{8}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}Smart Contracts}{8}{subsection.1.2.2}%
-\contentsline {subsection}{\numberline {1.2.3}Vantaggi e svantaggi del PoS}{9}{subsection.1.2.3}%
+\contentsline {section}{\numberline {1.1}Introduzione}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Blokchain 1.0}{4}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Bitcoin}{4}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Proof Of Work}{6}{subsection.1.2.2}%
+\contentsline {section}{\numberline {1.3}Blokchain 2.0}{8}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Ethereum e Proof Of Stake}{8}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Smart Contracts}{8}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}Vantaggi e svantaggi del PoS}{9}{subsection.1.3.3}%
 \contentsline {chapter}{\numberline {2}Sicurezza}{11}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Privacy e sicurezza}{11}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Il difficile rapporto tra trasparenza e privacy}{11}{subsection.2.1.1}%
@@ -16,14 +17,20 @@
 \contentsline {subsection}{\numberline {2.1.3}Crittografia End-to-End e responsabilità degli algoritmi}{13}{subsection.2.1.3}%
 \contentsline {section}{\numberline {2.2}Web 3.0}{14}{section.2.2}%
 \contentsline {chapter}{\numberline {3}Learning Analytics}{17}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Limiti del Learning Analytics}{18}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Collegare le storie di apprendimento }{18}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Privacy, sicurezza e controllo degli accessi}{19}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}Integrare i sistemi di ricerca e produzione}{19}{subsection.3.1.3}%
-\contentsline {section}{\numberline {3.2}Blockchain come soluzione}{19}{section.3.2}%
-\contentsline {section}{\numberline {3.3}EduCTX}{21}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Struttura}{21}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Registrazione degli HEI}{22}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Registrazione degli studenti}{23}{subsection.3.3.3}%
-\contentsline {section}{\numberline {3.4}Sony Global Education e Blockcerts}{24}{section.3.4}%
-\contentsline {chapter}{Bibliografia}{27}{chapter*.15}%
+\contentsline {section}{\numberline {3.1}Cos'è il Learning Analytics}{17}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Limiti del Learning Analytics}{18}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Collegare le storie di apprendimento }{18}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Privacy, sicurezza e controllo degli accessi}{19}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Integrare i sistemi di ricerca e produzione}{19}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}Blockchain come soluzione}{19}{section.3.3}%
+\contentsline {section}{\numberline {3.4}EduCTX}{21}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Struttura}{21}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Registrazione degli HEI}{22}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Registrazione degli studenti}{23}{subsection.3.4.3}%
+\contentsline {section}{\numberline {3.5}Sony Global Education e Blockcerts}{24}{section.3.5}%
+\contentsline {chapter}{\numberline {4}FaceItTools}{27}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduzione alla piattaforma}{27}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Ananlisi delle problematiche}{28}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Benefici di una trasformazione blockchain-oriented}{28}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}Raccomandazioni per gli sviluppatori}{28}{section.4.2}%
+\contentsline {chapter}{Bibliografia}{29}{chapter*.16}%
