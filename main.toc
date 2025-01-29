@@ -32,5 +32,8 @@
 \contentsline {section}{\numberline {4.1}Introduzione alla piattaforma}{27}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}Ananlisi delle problematiche}{28}{subsection.4.1.1}%
 \contentsline {subsection}{\numberline {4.1.2}Benefici di una trasformazione blockchain-oriented}{28}{subsection.4.1.2}%
-\contentsline {section}{\numberline {4.2}Raccomandazioni per gli sviluppatori}{28}{section.4.2}%
-\contentsline {chapter}{Bibliografia}{29}{chapter*.16}%
+\contentsline {section}{\numberline {4.2}Raccomandazioni per gli sviluppatori}{29}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Modello di catena ibrido}{29}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Struttura dettagliata}{29}{subsection.4.2.2}%
+\contentsline {chapter}{\numberline {5}Conclusioni}{33}{chapter.5}%
+\contentsline {chapter}{Bibliografia}{35}{chapter*.17}%
