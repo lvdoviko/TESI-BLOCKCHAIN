@@ -25,5 +25,5 @@
 \contentsline {subsection}{\numberline {3.3.1}Struttura}{21}{subsection.3.3.1}%
 \contentsline {subsection}{\numberline {3.3.2}Registrazione degli HEI}{22}{subsection.3.3.2}%
 \contentsline {subsection}{\numberline {3.3.3}Registrazione degli studenti}{23}{subsection.3.3.3}%
-\contentsline {section}{\numberline {3.4}Sony Global Education e Blockcherts}{24}{section.3.4}%
-\contentsline {chapter}{Bibliografia}{25}{chapter*.13}%
+\contentsline {section}{\numberline {3.4}Sony Global Education e Blockcerts}{24}{section.3.4}%
+\contentsline {chapter}{Bibliografia}{27}{chapter*.15}%
