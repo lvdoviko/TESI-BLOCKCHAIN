@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.1.9)  29 JAN 2025 19:59
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.1.9)  30 JAN 2025 16:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1491,19 +1491,15 @@ Underfull \vbox (badness 2635) has occurred while \output is active []
 [18]
 
 [19]
-
-[20]
 File: Immagini/EduCTX.PNG Graphic file (type bmp)
 <Immagini/EduCTX.PNG>
 
 
+[20]
+
 [21]
 File: Immagini/EduCTX_blockchain_structure.jpg Graphic file (type bmp)
 <Immagini/EduCTX_blockchain_structure.jpg>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 
 
 [22]
@@ -1526,9 +1522,6 @@ File: Immagini/Blockcerts_homepage.PNG Graphic file (type bmp)
 Capitolo 4.
 File: Immagini/FaceItTools.PNG Graphic file (type bmp)
 <Immagini/FaceItTools.PNG>
-
-Underfull \vbox (badness 1496) has occurred while \output is active []
-
 
 
 [27]
@@ -1580,7 +1573,7 @@ nterplay Between Decentralization and Privacy: The Case of
 ]
 
 [36]
-runsystem(latexminted cleantemp  --timestamp 20250129195958 FAD58DE7366495DB465
+runsystem(latexminted cleantemp  --timestamp 20250130160226 FAD58DE7366495DB465
 0CFEFAC2FCD61)...disabled (restricted).
 
  (main.aux)
