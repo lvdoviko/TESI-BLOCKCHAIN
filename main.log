@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.1.9)  30 JAN 2025 16:02
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.1.9)  4 FEB 2025 17:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1465,20 +1465,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--9
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 3--10
-\TU/TimesNewRoman(0)/m/n/12 La delicata tematica di privacy e sicurezza affront
-ata nel capitolo
+\TU/TimesNewRoman(0)/m/n/12 La delicata e importante tematica della privacy e d
+ella sicurezza affrontata nel
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 3--10
-\TU/TimesNewRoman(0)/m/n/12 precedente, caratterizza fortemente il ramo del Lea
-rning Analytics.
+\TU/TimesNewRoman(0)/m/n/12 capitolo precedente influenza fortemente anche il s
+ettore del Learning Analytics.
  []
 
 
-Underfull \hbox (badness 2197) in paragraph at lines 19--20
-[]\TU/TimesNewRoman(0)/m/n/12 Ai docenti che possono adattare i contenuti dei c
-orsi in
+Underfull \hbox (badness 1205) in paragraph at lines 19--20
+\TU/TimesNewRoman(0)/m/n/12 feedback e ai risultati lasciati dagli studenti e i
+dentificare
  []
 
 
@@ -1491,15 +1491,19 @@ Underfull \vbox (badness 2635) has occurred while \output is active []
 [18]
 
 [19]
+
+[20]
 File: Immagini/EduCTX.PNG Graphic file (type bmp)
 <Immagini/EduCTX.PNG>
 
 
-[20]
-
 [21]
 File: Immagini/EduCTX_blockchain_structure.jpg Graphic file (type bmp)
 <Immagini/EduCTX_blockchain_structure.jpg>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 
 [22]
@@ -1573,7 +1577,7 @@ nterplay Between Decentralization and Privacy: The Case of
 ]
 
 [36]
-runsystem(latexminted cleantemp  --timestamp 20250130160226 FAD58DE7366495DB465
+runsystem(latexminted cleantemp  --timestamp 20250204174938 FAD58DE7366495DB465
 0CFEFAC2FCD61)...disabled (restricted).
 
  (main.aux)

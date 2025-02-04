@@ -1,6 +1,6 @@
 \chapter{Learning Analytics}
 \section{Cos'è il Learning Analytics}
-La delicata tematica di privacy e sicurezza affrontata nel capitolo precedente, caratterizza fortemente il ramo
+La delicata e importante tematica della privacy e della sicurezza affrontata nel capitolo precedente influenza fortemente anche il settore
 del Learning Analytics.
 \begin{wrapfigure}{r}{0.25\textwidth}
     \centering
@@ -8,16 +8,16 @@ del Learning Analytics.
     \caption{Dragan Gasevic}
     \subcaption{Padre di Learning Analytics}
 \end{wrapfigure}
-Questo particolare campo emergente nell'ambito dell'educazione si concentra nel raccogliere, misurare e analizzare i dati raccolti sugli studenti e sui loro corsi
+Questo particolare ramo emergente dell'educazione si occupa di misurare e analizzare i dati ottenuti dagli studenti e dai loro corsi
 di studio, con l'obiettivo di ottimizzare l'esperienza educativa e migliorare non solo i loro risultati, ma anche i metodi di insegnamento. 
 \\Grazie alla crescente digitalizzazione e all'adozione di strumenti 
 come i Learning Management System (LMS), i social media e i corsi online aperti e massivi (MOOCs), è possibile raccogliere una grande quantità di dati relativi al comportamento degli studenti, 
 ai loro risultati e alle interazioni con i materiali didattici. 
 \\Il Learning Analytics offre un enorme aiuto a tutti gli stakeholder coinvolti nel processo educativo:
 \begin{itemize}
-    \item Agli studenti che possono riflettere sui propri progressi e migliorare il proprio apprendimento attraverso feedback personalizzati e a loro volta dare feedback sui corsi per aiutare i docenti a migliorare i metodi di insegnamento.
-    \item Ai docenti che possono adattare i contenuti dei corsi in base ai feedback e ai risultati degli studenti e identificare tempestivamente gli studenti in difficoltà.
-    \item Agli amministratori accademici che possono utilizzare i dati per prendere decisioni basate sull'evidenza e sviluppare strategie efficaci per migliorare l'efficienza e la qualità dell'istruzione.
+    \item Gli studenti possono riflettere sui propri progressi e migliorare il proprio apprendimento attraverso feedback personalizzati e a loro volta dare feedback sui corsi per aiutare i docenti a migliorare i metodi di insegnamento.
+    \item I docenti possono adattare i contenuti dei corsi in base ai feedback e ai risultati lasciati dagli studenti e identificare tempestivamente quali tra loro sono in difficoltà.
+    \item Gli amministratori accademici possono utilizzare i dati per prendere decisioni basate sull'evidenza e sviluppare strategie efficaci per migliorare l'efficienza e la qualità dell'istruzione.
 \end{itemize}
 Proprio per questo le principali applicazioni del Learning Analytics sono il monitoraggio delle prestazioni individuali, la prevenzione dell'abbandono scolastico,
 la personalizzazione dei percorsi educativi e l'analisi delle tecniche di valutazione e dei curricula \cite{wikipedia_learning_analytics}.
@@ -25,53 +25,58 @@ la personalizzazione dei percorsi educativi e l'analisi delle tecniche di valuta
 \section{Limiti del Learning Analytics}
 Nonostante la disponibilità di standard di riferimento per la gestione dei dati di apprendimento su un LRS (Learning Record Store), è ancora difficile raggiungere l'interoperabilità,
 ovvero la capacità di due piattaforme differenti di scambiare le informazioni in maniera indipendentemente, senza alcune limitazioni.
-\\Questi problemi includono:
+\\Questi problemi inducono a:
 \begin{itemize}
-    \item Collegare le storie di apprendimento di uno studente su diverse piattaforme di apprendimento in un unico percorso immutabile, in modo tale che ogni studente abbia un'unica identità nel web e non diverse identità in base alle piattaforme su cui si collega.
-    \item Garantire la privacy dei registri degli studenti con facilità nel controllo degli accessi.
-    \item Integrare i sistemi di ricerca e produzione per migliorare l'apprendimento.
+    \item Difficoltà nel collegare le storie di apprendimento di uno studente su diverse piattaforme di apprendimento in un unico percorso immutabile, in modo tale che ogni studente non abbia diverse identità in base alle piattaforme su cui si collega.
+    \item Difficoltà nel garantire la privacy dei registri degli studenti mantenendo un controllo degli accessi facilitato.
+    \item Difficoltà nell'integrare sistemi di ricerca e di produzione per migliorare l'apprendimento.
 \end{itemize}
 
 \subsection{Collegare le storie di apprendimento }
-Sebbene gli studenti spesso passino da una piattaforma di apprendimento di un provider a un'altra, i loro record di apprendimento vengono memorizzati separatamente in LRS distinti e in modo disconnesso. 
-Di conseguenza, ogni sistema deve sostenere il costo di ricostruire i dati dell'apprendente da zero anche per casi molto semplici. Anche se questo potrebbe non rappresentare uno sforzo ripetuto per i principianti, è quasi impossibile determinare se uno studente sia realmente un principiante.
-Questo causa anche un problema di "\textit{cold start}" nei sistemi di raccomandazione per la formazione, a causa della mancanza di azioni di apprendimento precedenti degli studenti \cite{barnes_stamper_2008}.
-I sistemi proposti dovrebbero consentire agli studenti di portare con sé i propri dati di apprendimento,
+Sebbene gli studenti spesso passino da una piattaforma di apprendimento di un provider a un'altra, i loro record vengono memorizzati separatamente in LRS distinti e in modo disconnesso. 
+Di conseguenza, ogni sistema deve sostenere il costo di ricostruire i dati dell'apprendente da zero anche per casi molto semplici. Nonostante questo potrebbe non rappresentare uno sforzo ripetuto per i principianti, è quasi impossibile determinare se uno studente sia effettivamente un principiante.
+\\Questo genera un problema di "\textit{cold start}" nei sistemi di raccomandazione per la formazione, a causa della mancanza di azioni di apprendimento precedenti degli studenti \cite{barnes_stamper_2008}.
+\\I sistemi proposti dovrebbero consentire agli studenti di portare con sé i propri dati di apprendimento,
 nello stesso modo in cui possono facilmente trasferire i certificati da un'istituzione all'altra. 
 \\A tal proposito tornerebbe utile il design del Web 3.0 presentato nel capitolo precedente che permetterebbe a ogni studente di costruirsi un'identità digitale univoca indipendente dal provider di servizi e che consentirebbe di
 andare a risolvere il problema di cold start, in quanto non servirebbe più ricostruire ogni volta la storia di apprendimento di uno studente, ma basterebbe andare a leggere la sua identità digitale \cite{ocheja2018connecting}.
 
 \subsection{Privacy, sicurezza e controllo degli accessi}
-Questo è un altro problema quando si condividono i risultati di apprendimento individuali degli studenti con terze parti. 
-\\Sebbene l'analisi dell'apprendimento aiuti a migliorare le prestazioni degli studenti, attraverso una domanda generale e quattro specifiche sulle condizioni per la privacy degli studenti, sostengono che, qualunque siano i guadagni dalle analisi dell'apprendimento, questi devono tener conto sempre al rispetto della privacy e dei diritti degli studenti,
-quindi non si potrà andare a violare la privacy dello studente per avere una maggiore efficienza dalle analisi dell'apprendimento,
-questo perchè il trauma psicologico che potrebbe derivare da una singola violazione della privacy può essere devastante, poiché è possibile rivelare informazioni riservate e dunque sensibili. 
-\\I sistemi proposti devono quindi garantire in primis la priorità al rispetto alla privacy degli studenti, lasciando a loro il controllo decisionale dei propri dati di apprendimento \cite{ocheja2018connecting}.
+Questo è un ulteriore problema che si riscontra nel momento in cui si condividono i risultati di apprendimento individuali degli studenti con terze parti. 
+\\Sebbene l'analisi dell'apprendimento aiuti a migliorare le prestazioni degli studenti, le loro normative sulla privacy, sostengono che, qualunque siano i guadagni dalle analisi dell'apprendimento, queste devono sempre tener conto al rispetto della privacy e dei diritti.
+\\Questo implica che non si potrà andare a violare la privacy dello studente per avere una maggiore efficienza dalle analisi dell'apprendimento,
+in quanto il trauma psicologico che potrebbe derivare da una singola violazione della privacy può essere devastante, poiché è possibile rivelare informazioni riservate e dunque sensibili. 
+\\I sistemi proposti devono quindi garantire in primis la priorità al rispetto della privacy degli studenti, lasciando a loro il controllo decisionale dei propri dati di apprendimento \cite{ocheja2018connecting}.
 
 \subsection{Integrare i sistemi di ricerca e produzione}
 La disponibilità di dati di apprendimento per la ricerca favorisce l'innovazione. 
-Nei casi in cui i dati di apprendimento siano raccolti da sistemi di produzione e/o di ricerca, i ricercatori di learning analytics spesso si trovano a dover affrontare il difficile compito di anonimizzare le informazioni personali con lo scopo di mantenere protetta la privacy degli stakeholder, facendo così si ha però un'immensa dispersione di risorse impiegate nel processo di anonimizzazione e inoltre si ha un impatto negativo sui risultati, perchè si va a perderne la loro caratterizzazione e personalizzazione. 
-\\Poiché i dati di apprendimento in tempo reale diventano sempre più desiderabili per la ricerca in learning analytics, è cruciale sviluppare nuove idee su come integrare in modo fluido e interoperabile i sistemi di ricerca e produzione, garantendo al contempo la privacy di tutti gli stakeholder coinvolti \cite{ocheja2018connecting}.
+Nei casi in cui i dati di apprendimento siano raccolti da sistemi di produzione e/o di ricerca, i ricercatori di learning analytics spesso si trovano a dover affrontare il difficile compito di anonimizzare le informazioni personali, con lo scopo di mantenere protetta la privacy degli stakeholder.
+\\Facendo così, si ha però un'immensa dispersione di risorse impiegate nel processo di anonimizzazione e inoltre si ha un impatto negativo sui risultati, perchè si va a perderne la loro caratterizzazione e personalizzazione. 
+\\Poiché i dati di apprendimento in tempo reale diventano sempre più desiderabili per la ricerca in learning analytics, è cruciale sviluppare nuove idee su come integrare in modo fluido e interoperabile i sistemi di ricerca e di produzione, garantendo al contempo la privacy di tutti gli stakeholder coinvolti \cite{ocheja2018connecting}.
 
+\newpage
 \section{Blockchain come soluzione}
-Ogni stakeholder deve quindi avere diritti diversi sui dati e metadati, 
-di conseguenza, i dati devono essere circondati da diversi livelli di accesso degli utenti, ciascuno con permessi specifici e unici,
+Ogni stakeholder deve avere diritti diversi sui dati e metadati, 
+di conseguenza, questi devono essere circondati da diversi livelli di accesso degli utenti, ciascuno con permessi specifici e unici,
 in modo tale che gli studenti possano avere accesso solamente ai loro dati, gli insegnanti ai dati di tutti i loro studenti, mentre i genitori solo ai dati relativi ai propri figli.
 \\La natura di questi diritti e il modo in cui vengono applicati devono essere concordati in modo esplicito e chiaramente comprensibile da tutti, 
 inoltre potrebbero essere validi solo per periodi di tempo limitati e vincolati al soddisfacimento di determinate condizioni, in modo tale da garantire un'adeguata anonimizzazione dei dati per rispettare la privacy di ciascun stakeholder.
-\\Ha quindi senso archiviare tutti i dati e metadati relativi allo studente rilevanti per le Learning Analytics in un decentralized distributed ledger basato su un sistema Blockchain \cite{Learning_Analytics_Privacy_on_the_Blockchain}.
+\\Ha quindi senso archiviare tutti i dati e metadati rilevanti relativi allo studente per le Learning Analytics in un decentralized distributed ledger basato su un sistema Blockchain \cite{Learning_Analytics_Privacy_on_the_Blockchain}.
 \\Grazie a questo sistema si potranno andare a soddisfare i seguenti requisiti:
 \begin{itemize}
-    \item[\textit{Autenticità}:] I "\textit{Data and metadata About Learning Processes}" (DALP) avranno la prova di essere validi e di essere stati aggiunti da utenti autorizzati, questo è molto importante perchè dire "\textit{Uno studento sostiene di aver preso un 30 all'esame}" non è la stessa cosa di dire "\textit{L'insegnante sostiene che lo studente abbia preso 30}".
+    \item[\textit{Autenticità}:] I "\textit{Data and Metadata About Learning Processes}" (DALP) avranno la prova di essere validi e di essere stati aggiunti da utenti autorizzati. 
+    \\Questo è molto importante, perchè dire "\textit{Uno studento sostiene di aver preso un 30 all'esame}" non è la stessa cosa di dire "\textit{L'insegnante sostiene che lo studente abbia preso 30}".
     \item[\textit{Integritàtà}:] I dati non potranno essere modificati.
-    \item[\textit{Controllo}:] Solo gli stakeholder autorizzati avranno il diritto di accedere ai dati, ma solo ai dati che gli corrispondono. 
-    \item[\textit{Conoscenza}:] Verrà sempre tenuto traccia sul registro di chi ha acceduto ai dati e il motivo per cui lo ha fatto.
+    \item[\textit{Controllo}:] Solo gli stakeholder autorizzati avranno il diritto di accedere ai dati, ma solo a quelli che gli corrispondono. 
+    \item[\textit{Conoscenza}:] Verrà sempre tenuta traccia sul registro di chi ha acceduto ai dati e il motivo per cui lo ha fatto.
     \item[\textit{Sicurezza}:] I dati saranno protetti da furti e attacchi informatici, grazie al design della Blockchain.
 \end{itemize}
-\'E facile notare come la nascita di una piattaforma che necessita questi requisiti sarebbe molto più spontanea e naturale e meno costosa se 
-fosse inserita in un ecosistema che la favorisse soddisfandone già a sua volta i requisiti, è importante quindi evidenziare ancora una volta
-l'importanza che avrebbe il passaggio del web da 2.0 a 3.0 e gli innumerevoli vantaggi che ciò porterebbe.
+\'E facile notare come la nascita di una piattaforma che necessita questi requisiti sarebbe molto più spontanea, naturale e meno costosa se 
+fosse inserita in un ecosistema che la favorisse soddisfandone già a sua volta i requisiti.
+\\\'E importante quindi evidenziare ancora una volta l'importanza che avrebbe il passaggio del web da 2.0 a 3.0 e gli innumerevoli vantaggi che ciò comporterebbe.
 \\Nei paragrafi che seguiranno vedremo nel dettaglio alcuni esempi tangibili di piattaforme Blockchain-based nell'ambito educativo che sono al momento dispobili sul web.
+
+\newpage
 \section{EduCTX}
 La più importante piattaforma nel settore educativo basata su Blockchain è EduCTX, sviluppata da un consorzio di università europee sfrutta la Blockchain 2.0 di Ethereum con lo scopo di gestire i crediti e le valutazioni nell'istruzione superiore.
 \\In ambito di Learning Analytics è molto importante l'apporto di EduCTX, in quanto permette di raccogliere i certificati e i risultati degli studenti sui quali effettuare le analisi.
@@ -122,8 +127,7 @@ Quando uno studente si immatricola presso un HEI (membro della rete blockchain E
 e anche un nuovo indirizzo blockchain con firma multipla 2-2 utilizzando la propria chiave pubblica e quella appena generata dello studente. 
 \\Questo indirizzo con firma multipla, insieme all'ID studente, viene memorizzato nel database dell'HEI.
 \\L'HEI trasferisce 0,1 token ECTX all'indirizzo blockchain con firma multipla 2-2 dello studente e, tramite un canale privato, fornisce allo studente le informazioni necessarie per configurare il portafoglio blockchain. 
-\newpage
-Le informazioni fornite includono:
+\\Le informazioni fornite includono:
 \begin{itemize}
     \item Istruzioni per configurare un portafoglio blockchain EduCTX.
     \item L'indirizzo blockchain dello studente, contenente chiavi pubbliche e private.
