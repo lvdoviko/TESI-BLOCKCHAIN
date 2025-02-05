@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.1.9)  4 FEB 2025 17:49
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.1.9)  5 FEB 2025 19:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1410,35 +1410,13 @@ Capitolo 2.
 [11]
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 42--49
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--49
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--49
-
- []
-
-
-Underfull \vbox (badness 2726) has occurred while \output is active []
-
-
 
 [13]
-File: Immagini/web_30.png Graphic file (type bmp)
-<Immagini/web_30.png>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) (Capitoli/LearningAnanlytics.tex
 
 [14]
+File: Immagini/web_30.png Graphic file (type bmp)
+<Immagini/web_30.png>
+) (Capitoli/LearningAnanlytics.tex
 
 [15]
 
@@ -1505,18 +1483,23 @@ File: Immagini/EduCTX_blockchain_structure.jpg Graphic file (type bmp)
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
+Underfull \hbox (badness 2884) in paragraph at lines 115--126
+\TU/TimesNewRoman(0)/m/n/12 Per garantire una versione permissioned della piatt
+aforma blockchain e una comunità
+ []
+
+
 
 [22]
 
 [23]
 File: Immagini/Sony_Global_Education_logo.PNG Graphic file (type bmp)
 <Immagini/Sony_Global_Education_logo.PNG>
-
-
-[24]
 File: Immagini/Blockcerts_homepage.PNG Graphic file (type bmp)
 <Immagini/Blockcerts_homepage.PNG>
 ) (Capitoli/FaceItTools.tex
+
+[24]
 
 [25]
 
@@ -1577,7 +1560,7 @@ nterplay Between Decentralization and Privacy: The Case of
 ]
 
 [36]
-runsystem(latexminted cleantemp  --timestamp 20250204174938 FAD58DE7366495DB465
+runsystem(latexminted cleantemp  --timestamp 20250205190538 FAD58DE7366495DB465
 0CFEFAC2FCD61)...disabled (restricted).
 
  (main.aux)
@@ -1601,10 +1584,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36039 strings out of 408685
- 763584 string characters out of 5749082
+ 36041 strings out of 408685
+ 763638 string characters out of 5749082
  1540774 words of memory out of 5000000
- 58627 multiletter control sequences out of 15000+600000
+ 58629 multiletter control sequences out of 15000+600000
  562063 words of font info for 77 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  94i,8n,93p,1905b,6949s stack positions out of 10000i,1000n,20000p,200000b,200000s
