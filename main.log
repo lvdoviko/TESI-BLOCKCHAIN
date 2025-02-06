@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.1.9)  5 FEB 2025 19:05
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.1.9)  6 FEB 2025 18:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1300,83 +1300,31 @@ File: Immagini/logo_dei.pdf Graphic file (type pdf)
 
 [10
 
-] (Capitoli/Introduzione_Blockchain.tex
+] (Capitoli/Introduzione.tex
 Capitolo 1.
 File: Immagini/Satoshi_Nakamoto.jpg Graphic file (type bmp)
 <Immagini/Satoshi_Nakamoto.jpg>
-
-Underfull \hbox (badness 5847) in paragraph at lines 3--8
-\TU/TimesNewRoman(0)/m/n/12 Nonostante il grande successo della trasformazione 
-digitale, molti ambiti delle no-
- []
-
-
-Underfull \hbox (badness 3302) in paragraph at lines 3--8
-\TU/TimesNewRoman(0)/m/n/12 stre interazioni sono rimasti indietro e non si son
-o adattati al digitale; un esempio
- []
-
-
-Underfull \hbox (badness 4205) in paragraph at lines 3--8
-\TU/TimesNewRoman(0)/m/n/12 su tutti è quello del settore legale. Inoltre, la d
-igitalizzazione presenta anche la-
- []
-
-
-Underfull \hbox (badness 2762) in paragraph at lines 3--8
-\TU/TimesNewRoman(0)/m/n/12 ti oscuri [[]1[]]: i nostri dati sono controllati d
-a organizzazioni il cui obiettivo princi-
- []
-
-
-Underfull \hbox (badness 1584) in paragraph at lines 3--8
-\TU/TimesNewRoman(0)/m/n/12 pale è il profitto, gli hacker tentano continuament
-e di sottrarre informazioni personali,
- []
-
-
-Underfull \hbox (badness 3428) in paragraph at lines 3--8
-\TU/TimesNewRoman(0)/m/n/12 e gli Stati monitorano le attività dei cittadini pe
-r mantenere l’ordine e il controllo.
- []
-
-
+)
 
 [1
+
+]
+
+[2
+
+] (Capitoli/Blockchain.tex
+Capitolo 2.
+
+
+[3
 
 ]
 File: Immagini/structure of block.png Graphic file (type bmp)
 <Immagini/structure of block.png>
 
 
-[2]
-
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 46--58
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--58
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--58
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--58
-
- []
-
-
-
-[4
-
-]
-Underfull \hbox (badness 4403) in paragraph at lines 59--60
+[4]
+Underfull \hbox (badness 4403) in paragraph at lines 41--42
 []\TU/TimesNewRoman(0)/m/n/12 il digest ha una lunghezza predeterminata, indipe
 ndentemente dalla dimensione
  []
@@ -1386,28 +1334,29 @@ File: Immagini/cifratura asimmetrica.png Graphic file (type bmp)
 
 
 [5]
+
+[6]
 File: Immagini/proof of work scheme.jpg Graphic file (type bmp)
 <Immagini/proof of work scheme.jpg>
 
 
-[6]
-
-[7]) (Capitoli/Blockchain_e_sicurezza.tex
-Underfull \vbox (badness 7522) has occurred while \output is active []
+[7]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[8]
+[8])
 
 [9]
 
-[10
+[10] (Capitoli/Blockchain_e_sicurezza.tex
+Capitolo 3.
+
+
+[11
+
 
 ]
-Capitolo 2.
-
-
-[11]
 
 [12]
 
@@ -1416,14 +1365,14 @@ Capitolo 2.
 [14]
 File: Immagini/web_30.png Graphic file (type bmp)
 <Immagini/web_30.png>
-) (Capitoli/LearningAnanlytics.tex
+)
 
 [15]
 
 [16
 
-]
-Capitolo 3.
+] (Capitoli/LearningAnanlytics.tex
+Capitolo 4.
 File: Immagini/Dragan Gasevic.jpg Graphic file (type bmp)
 <Immagini/Dragan Gasevic.jpg>
 
@@ -1464,7 +1413,9 @@ Underfull \vbox (badness 2635) has occurred while \output is active []
 
 
 
-[17]
+[17
+
+]
 
 [18]
 
@@ -1497,7 +1448,7 @@ File: Immagini/Sony_Global_Education_logo.PNG Graphic file (type bmp)
 <Immagini/Sony_Global_Education_logo.PNG>
 File: Immagini/Blockcerts_homepage.PNG Graphic file (type bmp)
 <Immagini/Blockcerts_homepage.PNG>
-) (Capitoli/FaceItTools.tex
+)
 
 [24]
 
@@ -1505,13 +1456,15 @@ File: Immagini/Blockcerts_homepage.PNG Graphic file (type bmp)
 
 [26
 
-]
-Capitolo 4.
+] (Capitoli/FaceItTools.tex
+Capitolo 5.
 File: Immagini/FaceItTools.PNG Graphic file (type bmp)
 <Immagini/FaceItTools.PNG>
 
 
-[27]
+[27
+
+]
 
 [28]
 File: Immagini/SmartContractsFaceIT.PNG Graphic file (type bmp)
@@ -1531,7 +1484,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [32
 
 ] (Capitoli/Conclusioni.tex
-Capitolo 5.
+Capitolo 6.
 )
 
 [33
@@ -1541,14 +1494,14 @@ Capitolo 5.
 [34
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
+Underfull \hbox (badness 10000) in paragraph at lines 87--87
 []\TU/TimesNewRoman(0)/m/n/12 klaus Schwab, \TU/TimesNewRoman(0)/m/it/12 La qua
 rta rivoluzione industriale\TU/TimesNewRoman(0)/m/n/12 . FrancoAngeli, 2019, \T
 U/TimesNewRoman(0)/m/sc/12 isbn\TU/TimesNewRoman(0)/m/n/12 :
  []
 
 
-Underfull \hbox (badness 1558) in paragraph at lines 83--83
+Underfull \hbox (badness 1558) in paragraph at lines 87--87
 []\TU/TimesNewRoman(0)/m/n/12 P. D. Filippi, \TU/TimesNewRoman(0)/m/it/12 The I
 nterplay Between Decentralization and Privacy: The Case of
  []
@@ -1560,7 +1513,7 @@ nterplay Between Decentralization and Privacy: The Case of
 ]
 
 [36]
-runsystem(latexminted cleantemp  --timestamp 20250205190538 FAD58DE7366495DB465
+runsystem(latexminted cleantemp  --timestamp 20250206180640 FAD58DE7366495DB465
 0CFEFAC2FCD61)...disabled (restricted).
 
  (main.aux)
@@ -1573,7 +1526,7 @@ L3 programming layer <2024-12-09>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D13C1A0EBB7C3A8E7E9229BFEB99E670;6568.
+(rerunfilecheck)             Checksum: 60DF35388FF234056BDBB3102C586C6B;6836.
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
 (biblatex)                main
@@ -1584,10 +1537,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36041 strings out of 408685
- 763638 string characters out of 5749082
- 1540774 words of memory out of 5000000
- 58629 multiletter control sequences out of 15000+600000
+ 36050 strings out of 408685
+ 763774 string characters out of 5749082
+ 1539076 words of memory out of 5000000
+ 58635 multiletter control sequences out of 15000+600000
  562063 words of font info for 77 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  94i,8n,93p,1905b,6949s stack positions out of 10000i,1000n,20000p,200000b,200000s
