@@ -65,6 +65,7 @@ A questo punto, i nodi partecipano a una competizione crittografica per individu
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.65\textwidth]{Immagini/proof of work scheme.jpg}
+\caption{Esempio di funzionamento del PoW}
 \end{figure}
 \\
 In questo ambito si sente spesso parlare di fork \cite{Blockchain_tecnologia_e_applicazioni_per_il_business}, ma non è sempre chiaro cosa si intenda con questo termine e cosa effettivamente comporti. Sebbene venga spesso utilizzato per indicare la divisione di una blockchain in realtà esso racchiude un insieme di diversi possibili scenari. 
@@ -85,12 +86,19 @@ A questo si aggiunge la scarsa scalabilità del sistema, che si traduce in una c
 Bitcoin, per sua natura, non è stato concepito come un ambiente di sviluppo e offre funzionalità di programmazione molto limitate, mentre la community ha sempre voluto mantenere la piattaforma focalizzata sullo scambio di valori, lasciando spazio a progetti alternativi che miravano ad ampliare le possibilità della tecnologia blockchain.
 \\È in questo scenario che nasce Ethereum, la prima blockchain progettata specificamente per supportare lo sviluppo di applicazioni decentralizzate. Co-fondata nel 2013 da Vitalik Buterin, un programmatore russo-canadese che in passato aveva collaborato con Bitcoin Magazine, Ethereum si distingue da Bitcoin per molteplici innovazioni.
 \\Una delle principali novità introdotte è la possibilità di utilizzare due tipi di conti: quelli tradizionali posseduti tramite una coppia di chiavi pubblica e privata, come in Bitcoin e quelli associati agli Smart Contract \cite{Blockchain_guida_allecosistema}. 
+
 \subsection{Smart Contracts}
 Gli Smart Contract, concettualizzati per la prima volta da Nick Szabo nel 1994, sono programmi in grado di eseguire automaticamente azioni predeterminate una volta soddisfatte certe condizioni.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.65\textwidth]{Immagini/smart-contract.png}
+    \caption{Esempio di Smart Contract}
+\end{figure}
 Questi contratti decentralizzati garantiscono che le regole siano rispettate senza la necessità di intermediari, eliminando possibili interferenze.
 \\Un esempio pratico di utilizzo degli Smart Contract è il crowdfunding. Un utente potrebbe pubblicare un progetto stabilendo un obiettivo economico e un tempo limite per raggiungerlo. Lo Smart Contract, in questo caso, si occuperebbe di raccogliere i fondi dagli investitori e trattenerli fino al completamento della campagna. Se l’obiettivo viene raggiunto, i fondi vengono trasferiti automaticamente al creatore del progetto; in caso contrario, tornano ai donatori. 
 \\Questa struttura elimina la necessità di intermediari e rende il processo completamente trasparente.
 Ethereum utilizza Solidity, un linguaggio di programmazione simile a JavaScript, per scrivere Smart Contract, la flessibilità offerta da questa piattaforma ha rivoluzionato il mondo delle blockchain, permettendo la creazione di applicazioni decentralizzate e inaugurando l’era delle cosiddette blockchain 2.0.
+
 \subsection{Vantaggi e svantaggi del PoS}
 Inizialmente veniva utilizzato il meccanismo di consenso Proof of Work (PoW), lo stesso di Bitcoin, però per migliorare efficienza e sostenibilità, il 15 settembre 2022, con l’aggiornamento noto come The Merge, Ethereum è passato al Proof of Stake (PoS). 
 Questo cambiamento ha segnato un cambio epocale per la piattaforma ed ha portato con se enormi vantaggi \cite{crypto_gateway_video}.
