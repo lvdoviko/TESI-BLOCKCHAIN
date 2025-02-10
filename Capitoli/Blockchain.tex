@@ -2,7 +2,7 @@
 \section{Blokchain 1.0}
 La blockchain è un database completamente decentralizzato, in cui ogni nodo possiede una replica e concorda, sulla base di un algoritmo comune, un’unica versione aggiornata delle informazioni. Si tratta di una struttura dati nella quale è possibile solo aggiungere nuovi dati, senza possibilità di cancellare quelli precedenti, garantendo così uno storico completo delle modifiche.
 \\Per chiarire meglio questo concetto, possiamo immaginare la blockchain come una barriera corallina: lo strato attivo corrisponde alla parte più recente, che viene continuamente modificata con nuove aggiunte, mentre gli strati più vecchi rimangono immutabili e accessibili solo per attività di consultazione.
-Può essere quindi rappresentata come una lista in continua crescita di “blocchi” collegati tra loro e protetti mediante crittografia. 
+Può essere quindi rappresentata come una lista in continua crescita di “blocchi”, collegati tra loro e protetti mediante crittografia. 
 \\Oltre alla decentralizzazione e all’immutabilità, il terzo grande punto di forza è il consenso: nuove transazioni possono essere registrate solo quando la maggioranza dei partecipanti alla rete dà il proprio consenso.
 \\I blocchi sopra citati sono composti da 7 campi principali: 
 \begin{itemize}
@@ -24,7 +24,7 @@ Può essere quindi rappresentata come una lista in continua crescita di “blocc
 L’aspetto rivoluzionario di Bitcoin è la creazione di una forma monetaria completamente decentralizzata. La sua rete è composta da una serie di componenti chiamate nodi, che collaborano tra loro per raggiungere il consenso su una sequenza di transazioni.
 Essendo basato sulla blockchain, Bitcoin è completamente decentralizzato: non è gestito da un’entità centrale, come avviene per esempio con le banche. 
 \\Questo comporta un vantaggio significativo, ovvero una maggiore resistenza a comportamenti anomali o malintenzionati. In un sistema centralizzato, infatti, il nodo centrale rappresenta un punto di vulnerabilità che potrebbe compromettere l’intero sistema.
-\\Un’altra caratteristica fondamentale di Bitcoin è la disintermediazione: ogni transazione coinvolge direttamente il mittente e il destinatario, che raggiungono il consenso tramite l’approvazione della rete. Bitcoin è quindi costituito da una rete di sistemi indipendenti, i nodi, capaci di mantenere un registro univoco e condiviso delle transazioni. Questo sistema garantisce che un singolo bitcoin non possa essere speso più di una volta.\\
+\\Un’altra caratteristica fondamentale di Bitcoin è la disintermediazione: ogni transazione coinvolge direttamente il mittente e il destinatario che raggiungono il consenso tramite l’approvazione della rete. Bitcoin è quindi costituito da una rete di sistemi indipendenti, i nodi, capaci di mantenere un registro univoco e condiviso delle transazioni. Questo sistema garantisce che un singolo bitcoin non possa essere speso più di una volta.\\
 In tal modo, Bitcoin soddisfa le funzioni critiche di ogni valuta:
 \begin{itemize}
 \item Immagazzinare valore.
@@ -34,16 +34,17 @@ In tal modo, Bitcoin soddisfa le funzioni critiche di ogni valuta:
 La sua blockchain è di tipo permissionless, il che significa che chiunque può eseguire il software del nodo e collegarsi alla rete senza alcuna forma di autenticazione. In altre parole, chiunque può unirsi alla rete senza necessità di approvazioni o permessi da parte di un’autorità centrale.
 \\Un elemento fondamentale è il wallet che consente agli utenti di gestire i propri bitcoin, conservati in veri e propri conti. Ogni bitcoin è associato a un address, protetto da una coppia di chiavi crittografiche.
 La chiave pubblica rappresenta l’indirizzo del conto ed è accessibile a tutti, mentre la chiave privata rappresenta l’identità del proprietario ed è necessaria per accedere e autorizzare le transazioni.
-\\Bitcoin utilizza la crittografia asimmetrica, un sistema inventato nel 1976 da Whitfield Diffie e Martin Hellman. Questo metodo permette di cifrare un messaggio con una chiave (pubblica) che può essere decifrato solo con l’altra chiave (privata), e viceversa, ciò determina due vantaggi principali.
-Il primo è Hashing dei dati che trasforma qualsiasi quantità di dati in una stringa cifrata di dimensioni fisse, chiamata digest e comporta numerosi vantaggi in quanto è: 
+\\Bitcoin utilizza la crittografia asimmetrica, un sistema inventato nel 1976 da Whitfield Diffie e Martin Hellman. Questo metodo permette di cifrare con una chiave (pubblica) un messaggio che può essere decifrato solo con l’altra chiave (privata), e viceversa, ciò determina due vantaggi principali.
+Il primo è l'Hashing e il secondo è la firma digitale.
+\\L'hashing trasforma qualsiasi quantità di dati in una stringa cifrata di dimensioni fisse, chiamata digest e comporta numerosi vantaggi in quanto è: 
 \begin{itemize}
     \item[\textit{Deterministico}:] ovvero lo stesso input produce sempre lo stesso digest.
-    \item [\textit{Lunghezza fissa}:] il digest ha una lunghezza predeterminata, indipendentemente dalla dimensione dell’input.
+    \item [\textit{A lunghezza fissa}:] il digest ha una lunghezza predeterminata, indipendentemente dalla dimensione dell’input.
     \item [\textit{Unico}:] è estremamente improbabile che due input diversi generino lo stesso digest.
     \item [\textit{Non invertibile}:] è impossibile risalire all’input originale partendo dal digest.
     \item [\textit{Instabile}:] una minima modifica all’input genera un digest completamente diverso.
 \end{itemize}
-Il secondo grosso vantaggio è la firma digitale che garantisce unicità e non ripudiabilità. 
+L'altro grosso vantaggio è la firma digitale che garantisce unicità e non ripudiabilità. 
 \\Quando un utente X invia a un utente Y un messaggio firmato digitalmente, X crea l’hash del messaggio e lo cifra con la propria chiave privata. Y, ricevendo il messaggio, può verificare l’hash con la chiave pubblica di X, garantendo così l’integrità del messaggio e la validità del mittente.
 \begin{figure}[h]
 \centering
@@ -54,13 +55,13 @@ Il secondo grosso vantaggio è la firma digitale che garantisce unicità e non r
 Bitcoin è open source, il suo codice sorgente è pubblico e rilasciato sotto licenza MIT, che permette la massima libertà di utilizzo per progetti futuri.
 \\Nonostante il grande successo riscosso, Bitcoin presenta diverse criticità che ne limitano l'efficacia e l'adozione su larga scala. Una delle principali problematiche riguarda la scalabilità: l'algoritmo Proof of Work (PoW) su cui si basa il sistema, pur garantendo sicurezza, tende a limitare l'efficienza complessiva, rendendo difficile gestire un alto numero di transazioni in tempi brevi.
 Un altro aspetto delicato è quello relativo a privacy e visibilità. Sebbene gli account su Bitcoin siano pseudonimi, tutte le transazioni effettuate sulla rete sono pubblicamente visibili. Questo permette, tramite un'analisi approfondita dei movimenti della valuta, di risalire potenzialmente all'identità dei possessori, mettendo in discussione la reale riservatezza del sistema.
-La difficoltà di aggiornamento rappresenta un'ulteriore sfida. Il complesso sistema di governance, che coinvolge minatori, sviluppatori e utenti, rende particolarmente arduo raggiungere un consenso per apportare modifiche al protocollo. Ciò può rallentare l'implementazione di miglioramenti necessari.
-\\Infine, vi è il problema delle commissioni elevate, che si verifica nei periodi di intenso utilizzo della rete. In queste circostanze, effettuare transazioni rapide può diventare molto costoso, specialmente se il tasso di cambio tra Bitcoin ed Euro è particolarmente alto.
+La difficoltà di aggiornamento rappresenta un'ulteriore sfida. Il complesso sistema di governance che coinvolge minatori, sviluppatori e utenti, rende particolarmente arduo raggiungere un consenso per apportare modifiche al protocollo. Ciò può rallentare l'implementazione di miglioramenti necessari.
+\\Infine vi è il problema delle commissioni elevate, che si verifica nei periodi di intenso utilizzo della rete. In queste circostanze, effettuare transazioni rapide può diventare molto costoso, specialmente se il tasso di cambio tra Bitcoin ed Euro è particolarmente alto.
 
 \newpage
 \subsection{Proof Of Work}
-Come accennato in precedenza, la sicurezza e la validità delle transazioni in Bitcoin sono garantite da un algoritmo di consenso chiamato Proof of Work (PoW) \cite{Blockchain_guida_allecosistema}. Un algoritmo di consenso è un protocollo condiviso da tutti i nodi della rete, che consente loro di concordare su una visione unica delle transazioni.
-\\In primo luogo, ogni nodo condivide con gli altri nodi della rete le transazioni ricevute nell’ultimo intervallo di tempo, firmate digitalmente. Successivamente, ciascun nodo costruisce in memoria un elenco delle transazioni ricevute dagli altri nodi con cui è in comunicazione. Queste transazioni vengono ordinate e viene verificato che ogni account disponga dei fondi necessari per completare i pagamenti.
+Come accennato in precedenza, la sicurezza e la validità delle transazioni in Bitcoin sono garantite da un algoritmo di consenso chiamato Proof of Work (PoW) \cite{Blockchain_guida_allecosistema}. Un algoritmo di consenso è un protocollo condiviso da tutti i nodi della rete che consente loro di concordare su una visione unica delle transazioni.
+\\In primo luogo, ogni nodo condivide con gli altri nodi della rete le transazioni ricevute nell’ultimo intervallo di tempo, firmate digitalmente. Successivamente ciascun nodo costruisce in memoria un elenco delle transazioni ricevute dagli altri nodi con cui è in comunicazione. Queste transazioni vengono ordinate e viene verificato che ogni account disponga dei fondi necessari per completare i pagamenti.
 A questo punto, i nodi partecipano a una competizione crittografica per individuare, in modo casuale, il nodo che avrà il diritto di pubblicare il blocco successivo. Quando un nodo vince la competizione, individua un blocco valido e lo comunica a tutti gli altri nodi. Questi ultimi verificano il blocco e lo aggiungono alla propria copia della blockchain.
 \begin{figure}[h]
 \centering
@@ -68,10 +69,10 @@ A questo punto, i nodi partecipano a una competizione crittografica per individu
 \caption{Esempio di funzionamento del PoW}
 \end{figure}
 \\
-In questo ambito si sente spesso parlare di fork \cite{Blockchain_tecnologia_e_applicazioni_per_il_business}, ma non è sempre chiaro cosa si intenda con questo termine e cosa effettivamente comporti. Sebbene venga spesso utilizzato per indicare la divisione di una blockchain in realtà esso racchiude un insieme di diversi possibili scenari. 
+In questo ambito si sente spesso parlare di fork \cite{Blockchain_tecnologia_e_applicazioni_per_il_business}, ma non è sempre chiaro cosa si intenda con questo termine e cosa effettivamente comporti. Sebbene venga spesso utilizzato per indicare la divisione di una blockchain, in realtà esso racchiude un insieme di diversi possibili scenari. 
 \\Una fork è una situazione in cui si verifica uno dei seguenti scenari:
 \begin{itemize}
-\item Può accadere che due o più nodi trovino contemporaneamente una soluzione valida. In tal caso, si generano due blocchi con lo stesso genitore, creando una biforcazione nella catena, detta fork. Quando viene individuato il blocco successivo, l’algoritmo seleziona la catena più lunga (in termini di difficoltà complessiva) come valida. Questo caso viene denominato come fork regolare.
+\item Può accadere che due o più nodi trovino contemporaneamente una soluzione valida. In tal caso si generano due blocchi con lo stesso genitore, creando una biforcazione nella catena, detta fork. Quando viene individuato il blocco successivo, l’algoritmo seleziona la catena più lunga (in termini di difficoltà complessiva) come valida. Questo caso viene denominato come fork regolare.
 \item Le regole della Blockchain sono cambiate in maniera retrocompatibile e tutti i nodi condividono la stessa cronologia delle transazioni, in questo caso si tratta di soft fork e non c’è una divisione della blockchain.
 \item Le regole della Blockchain sono cambiate in maniera non retrocompatibile, ma tutti i nodi si aggiornano alle nuove regole e condividono la stessa cronologia delle transazioni, anche in questo caso non si ha una divisione della blockchain, ma si tratta di un hard fork.
 \item Le regole della blockchain sono cambiate in maniera non retrocompatibile e nodi diversi hanno opinioni diverse sulle regole della blolckchain, non condividendo la stessa cronologia delle transazioni, abbiamo quindi un hard fork con chain split, dato che avviene una divisione della chain e il consenso sulla cronologia delle transazioni e perso definitivamente.
