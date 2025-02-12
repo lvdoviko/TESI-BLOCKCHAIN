@@ -5,15 +5,17 @@ La blockchain è un database completamente decentralizzato, in cui ogni nodo pos
 Può essere quindi rappresentata come una lista in continua crescita di “blocchi”, collegati tra loro e protetti mediante crittografia. 
 \\Oltre alla decentralizzazione e all’immutabilità, il terzo grande punto di forza è il consenso: nuove transazioni possono essere registrate solo quando la maggioranza dei partecipanti alla rete dà il proprio consenso.
 \\I blocchi sopra citati sono composti da 7 campi principali: 
-\begin{itemize}
-    \item[\textit{Block}:]  rappresenta il numero del blocco all'interno della blockchain. Ogni volta che un nuovo blocco viene aggiunto, questo numero aumenta progressivamente.
-    \item[\textit{Nonce}:]  è un valore, spesso composto da 32 bit (come nel caso di Bitcoin), fondamentale perché viene cercato dai miner per generare un hash valido che soddisfi i requisiti di difficoltà della chain. Serve a modificare l’input del calcolo dell’hash e viene aggiornato continuamente durante il processo di mining.
-    \item [\textit{Timestamp}:] indica il momento esatto in cui il blocco è stato aggiunto alla blockchain.
-    \item [\textit{Transaction}:] contiene o un valore (ad esempio un importo monetario), o il corpo del messaggio, o uno smart contract.
-    \item [\textit{Transaction n}:] si riferisce a una specifica transazione tra le diverse transazioni presenti all’interno del blocco.
-    \item [\textit{Prev Hash}:] è l’hash del blocco precedente, che funge da chiave di collegamento tra i blocchi. Questo meccanismo garantisce che ogni blocco sia dipendente dal precedente, creando una catena ininterrotta.
-    \item [\textit{Hash}:] rappresenta l’impronta digitale del blocco. È un valore alfanumerico unico calcolato applicando una funzione hash. L’hash è deterministico, nel senso che lo stesso input produrrà sempre lo stesso hash; tuttavia, non è possibile risalire ai dati originali partendo dall’hash. Ogni minima modifica ai dati genera un hash completamente diverso, garantendo così l’integrità e l’immutabilità delle informazioni.
-\end{itemize}
+\begin{adjustwidth}{1cm}{0pt}
+    \begin{itemize}
+        \item[\textit{Block} $\rightarrow$ ]  rappresenta il numero del blocco all'interno della blockchain. Ogni volta che un nuovo blocco viene aggiunto, questo numero aumenta progressivamente.
+        \item[\textit{Nonce} $\rightarrow$ ]  è un valore, spesso composto da 32 bit (come nel caso di Bitcoin), fondamentale perché viene cercato dai miner per generare un hash valido che soddisfi i requisiti di difficoltà della chain. Serve a modificare l’input del calcolo dell’hash e viene aggiornato continuamente durante il processo di mining.
+        \item [\textit{Timestamp} $\rightarrow$ ] indica il momento esatto in cui il blocco è stato aggiunto alla blockchain.
+        \item [\textit{Transaction} $\rightarrow$ ] contiene o un valore (ad esempio un importo monetario), o il corpo del messaggio, o uno smart contract.
+        \item [\textit{Transaction n} $\rightarrow$ ] si riferisce a una specifica transazione tra le diverse transazioni presenti all’interno del blocco.
+        \item [\textit{Prev Hash} $\rightarrow$ ] è l’hash del blocco precedente, che funge da chiave di collegamento tra i blocchi. Questo meccanismo garantisce che ogni blocco sia dipendente dal precedente, creando una catena ininterrotta.
+        \item [\textit{Hash} $\rightarrow$ ] rappresenta l’impronta digitale del blocco. È un valore alfanumerico unico calcolato applicando una funzione hash. L’hash è deterministico, nel senso che lo stesso input produrrà sempre lo stesso hash; tuttavia, non è possibile risalire ai dati originali partendo dall’hash. Ogni minima modifica ai dati genera un hash completamente diverso, garantendo così l’integrità e l’immutabilità delle informazioni.
+    \end{itemize}
+\end{adjustwidth}
 \begin{figure}[t]
     \centering
     \includegraphics[width=0.8\textwidth]{Immagini/structure of block.png}
@@ -37,13 +39,16 @@ La chiave pubblica rappresenta l’indirizzo del conto ed è accessibile a tutti
 \\Bitcoin utilizza la crittografia asimmetrica, un sistema inventato nel 1976 da Whitfield Diffie e Martin Hellman. Questo metodo permette di cifrare con una chiave (pubblica) un messaggio che può essere decifrato solo con l’altra chiave (privata), e viceversa, ciò determina due vantaggi principali.
 Il primo è l'Hashing e il secondo è la firma digitale.
 \\L'hashing trasforma qualsiasi quantità di dati in una stringa cifrata di dimensioni fisse, chiamata digest e comporta numerosi vantaggi in quanto è: 
-\begin{itemize}
-    \item[\textit{Deterministico}:] ovvero lo stesso input produce sempre lo stesso digest.
-    \item [\textit{A lunghezza fissa}:] il digest ha una lunghezza predeterminata, indipendentemente dalla dimensione dell’input.
-    \item [\textit{Unico}:] è estremamente improbabile che due input diversi generino lo stesso digest.
-    \item [\textit{Non invertibile}:] è impossibile risalire all’input originale partendo dal digest.
-    \item [\textit{Instabile}:] una minima modifica all’input genera un digest completamente diverso.
-\end{itemize}
+\begin{adjustwidth}{1cm}{0pt}
+    \begin{itemize}
+        \item[\textit{deterministico} $\rightarrow$ ] lo stesso input produce sempre lo stesso digest.
+        \item [\textit{a lunghezza fissa} $\rightarrow$ ] il digest ha una lunghezza predeterminata, indipendentemente dalla dimensione dell’input.
+        \item [\textit{unico} $\rightarrow$ ] è estremamente improbabile che due input diversi generino lo stesso digest.
+        \item [\textit{non invertibile} $\rightarrow$ ] è impossibile risalire all’input originale partendo dal digest.
+        \item [\textit{instabile} $\rightarrow$ ] una minima modifica all’input genera un digest completamente diverso.
+    \end{itemize}
+\end{adjustwidth}
+\newpage
 L'altro grosso vantaggio è la firma digitale che garantisce unicità e non ripudiabilità. 
 \\Quando un utente X invia a un utente Y un messaggio firmato digitalmente, X crea l’hash del messaggio e lo cifra con la propria chiave privata. Y, ricevendo il messaggio, può verificare l’hash con la chiave pubblica di X, garantendo così l’integrità del messaggio e la validità del mittente.
 \begin{figure}[h]

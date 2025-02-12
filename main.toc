@@ -15,7 +15,7 @@
 \contentsline {chapter}{\numberline {3}Sicurezza}{13}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Privacy e sicurezza}{13}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Il difficile rapporto tra trasparenza e privacy}{13}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Blockchain Permissioned e Permissionless}{15}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.2}Blockchain permissioned e permissionless}{15}{subsection.3.1.2}%
 \contentsline {subsection}{\numberline {3.1.3}Crittografia End-to-End e responsabilità degli algoritmi}{15}{subsection.3.1.3}%
 \contentsline {section}{\numberline {3.2}Web 3.0}{16}{section.3.2}%
 \contentsline {chapter}{\numberline {4}Learning Analytics}{19}{chapter.4}%
