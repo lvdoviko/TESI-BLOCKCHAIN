@@ -15,9 +15,9 @@ come i Learning Management System (LMS), i social media e i corsi online aperti 
 ai loro risultati e alle interazioni con i materiali didattici. 
 \\Il Learning Analytics offre un enorme aiuto a tutti gli stakeholder coinvolti nel processo educativo:
 \begin{itemize}
-    \item Gli studenti possono riflettere sui propri progressi e migliorare il proprio apprendimento attraverso feedback personalizzati e a loro volta dare feedback sui corsi per aiutare i docenti a migliorare i metodi di insegnamento.
-    \item I docenti possono adattare i contenuti dei corsi in base ai feedback e ai risultati lasciati dagli studenti e identificare tempestivamente quali tra loro sono in difficoltà.
-    \item Gli amministratori accademici possono utilizzare i dati per prendere decisioni basate sull'evidenza e sviluppare strategie efficaci per migliorare l'efficienza e la qualità dell'istruzione.
+    \item gli studenti possono riflettere sui propri progressi e migliorare il proprio apprendimento attraverso feedback personalizzati e a loro volta dare feedback sui corsi per aiutare i docenti a migliorare i metodi di insegnamento;
+    \item i docenti possono adattare i contenuti dei corsi in base ai feedback e ai risultati lasciati dagli studenti e identificare tempestivamente quali tra loro sono in difficoltà;
+    \item gli amministratori accademici possono utilizzare i dati per prendere decisioni basate sull'evidenza e sviluppare strategie efficaci per migliorare l'efficienza e la qualità dell'istruzione.
 \end{itemize}
 Proprio per questo le principali applicazioni del Learning Analytics sono il monitoraggio delle prestazioni individuali, la prevenzione dell'abbandono scolastico,
 la personalizzazione dei percorsi educativi e l'analisi delle tecniche di valutazione e dei curricula \cite{wikipedia_learning_analytics}.
@@ -27,9 +27,9 @@ Nonostante la disponibilità di standard di riferimento per la gestione dei dati
 ovvero la capacità di due piattaforme differenti di scambiare le informazioni in maniera indipendentemente, senza alcune limitazioni.
 \\Questi problemi inducono a:
 \begin{itemize}
-    \item Difficoltà nel collegare le storie di apprendimento di uno studente su diverse piattaforme di apprendimento in un unico percorso immutabile, in modo tale che ogni studente non abbia diverse identità in base alle piattaforme su cui si collega.
-    \item Difficoltà nel garantire la privacy dei registri degli studenti mantenendo un controllo degli accessi facilitato.
-    \item Difficoltà nell'integrare sistemi di ricerca e di produzione per migliorare l'apprendimento.
+    \item difficoltà nel collegare le storie di apprendimento di uno studente su diverse piattaforme di apprendimento in un unico percorso immutabile, in modo tale che ogni studente non abbia diverse identità in base alle piattaforme su cui si collega;
+    \item difficoltà nel garantire la privacy dei registri degli studenti mantenendo un controllo degli accessi facilitato;
+    \item difficoltà nell'integrare sistemi di ricerca e di produzione per migliorare l'apprendimento.
 \end{itemize}
 
 \subsection{Collegare le storie di apprendimento }
@@ -63,14 +63,18 @@ in modo tale che gli studenti possano avere accesso solamente ai loro dati, gli 
 inoltre potrebbero essere validi solo per periodi di tempo limitati e vincolati al soddisfacimento di determinate condizioni, in modo tale da garantire un'adeguata anonimizzazione dei dati per rispettare la privacy di ciascun stakeholder.
 \\Ha quindi senso archiviare tutti i dati e metadati rilevanti relativi allo studente per le Learning Analytics in un decentralized distributed ledger basato su un sistema Blockchain \cite{Learning_Analytics_Privacy_on_the_Blockchain}.
 \\Grazie a questo sistema si potranno andare a soddisfare i seguenti requisiti:
-\begin{itemize}
-    \item[\textit{Autenticità}:] I "\textit{Data and Metadata About Learning Processes}" (DALP) avranno la prova di essere validi e di essere stati aggiunti da utenti autorizzati. 
-    \\Questo è molto importante, perchè dire "\textit{Uno studento sostiene di aver preso un 30 all'esame}" non è la stessa cosa di dire "\textit{L'insegnante sostiene che lo studente abbia preso 30}".
-    \item[\textit{Integritàtà}:] I dati non potranno essere modificati.
-    \item[\textit{Controllo}:] Solo gli stakeholder autorizzati avranno il diritto di accedere ai dati, ma solo a quelli che gli corrispondono. 
-    \item[\textit{Conoscenza}:] Verrà sempre tenuta traccia sul registro di chi ha acceduto ai dati e il motivo per cui lo ha fatto.
-    \item[\textit{Sicurezza}:] I dati saranno protetti da furti e attacchi informatici, grazie al design della Blockchain.
-\end{itemize}
+\vspace{1em}
+\begin{adjustwidth}{1cm}{0pt}
+    \begin{itemize}[itemsep=1ex]
+        \item[\textbullet\ \textit{autenticità} $\rightarrow$ ] i "\textit{Data and Metadata About Learning Processes}" (DALP) avranno la prova di essere validi e di essere stati aggiunti da utenti autorizzati;
+        \\Questo è molto importante, perchè dire "\textit{Uno studento sostiene di aver preso un 30 all'esame}" non è la stessa cosa di dire "\textit{L'insegnante sostiene che lo studente abbia preso 30}";
+        \item[\textbullet\ \textit{integritàtà} $\rightarrow$ ] i dati non potranno essere modificati;
+        \item[\textbullet\ \textit{controllo} $\rightarrow$ ] solo gli stakeholder autorizzati avranno il diritto di accedere ai dati, ma solo a quelli che gli corrispondono;
+        \item[\textbullet\ \textit{conoscenza} $\rightarrow$ ] verrà sempre tenuta traccia sul registro di chi ha acceduto ai dati e il motivo per cui lo ha fatto;
+        \item[\textbullet\ \textit{sicurezza} $\rightarrow$ ] i dati saranno protetti da furti e attacchi informatici, grazie al design della Blockchain.
+    \end{itemize}
+\end{adjustwidth}
+\vspace{1em}
 \'E facile notare come la nascita di una piattaforma che necessita questi requisiti sarebbe molto più spontanea, naturale e meno costosa se 
 fosse inserita in un ecosistema che la favorisse soddisfandone già a sua volta i requisiti.
 \\\'E importante quindi evidenziare ancora una volta l'importanza che avrebbe il passaggio del web da 2.0 a 3.0 e gli innumerevoli vantaggi che ciò comporterebbe.
@@ -97,9 +101,9 @@ in cui i nodi della rete blockchain sono gli istituti di istruzione superiore (H
 \\Le informazioni sul trasferimento vengono archiviate sulla blockchain, 
 includendo i seguenti dati: 
 \begin{itemize}
-    \item il mittente, identificato come l’HEI con il suo nome ufficiale.
-    \item il destinatario, presentato in modo anonimo.
-    \item il token, valore del credito del corso.
+    \item il mittente, identificato come l’HEI con il suo nome ufficiale;
+    \item il destinatario, presentato in modo anonimo;
+    \item il token, valore del credito del corso;
     \item l’ID del corso.
 \end{itemize}
 Utilizzando il proprio indirizzo blockchain, lo studente, in qualità di destinatario dei token ECTX, può dimostrare globalmente i corsi completati, senza ostacoli amministrativi, di traduzione o linguistici, semplicemente presentando il suo indirizzo blockchain. 
@@ -131,10 +135,10 @@ e anche un nuovo indirizzo blockchain con firma multipla 2-2 utilizzando la prop
 \\L'HEI trasferisce 0,1 token ECTX all'indirizzo blockchain con firma multipla 2-2 dello studente e, tramite un canale privato, fornisce allo studente le informazioni necessarie per configurare il portafoglio blockchain. 
 \\Le informazioni fornite includono:
 \begin{itemize}
-    \item Istruzioni per configurare un portafoglio blockchain EduCTX.
-    \item L'indirizzo blockchain dello studente, contenente chiavi pubbliche e private.
-    \item La chiave pubblica dell'HEI.
-    \item Lo script di riscatto (redeem script).
+    \item istruzioni per configurare un portafoglio blockchain EduCTX;
+    \item l'indirizzo blockchain dello studente, contenente chiavi pubbliche e private;
+    \item la chiave pubblica dell'HEI;
+    \item lo script di riscatto (redeem script).
 \end{itemize}
 Con le informazioni ricevute, lo studente configura il proprio portafoglio blockchain e un singolo indirizzo, utilizzando le chiavi pubbliche e private fornite dall'amministrazione dell'HEI.
 

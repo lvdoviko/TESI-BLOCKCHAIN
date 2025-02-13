@@ -5,17 +5,19 @@ La blockchain è un database completamente decentralizzato, in cui ogni nodo pos
 Può essere quindi rappresentata come una lista in continua crescita di “blocchi”, collegati tra loro e protetti mediante crittografia. 
 \\Oltre alla decentralizzazione e all’immutabilità, il terzo grande punto di forza è il consenso: nuove transazioni possono essere registrate solo quando la maggioranza dei partecipanti alla rete dà il proprio consenso.
 \\I blocchi sopra citati sono composti da 7 campi principali: 
+\vspace{1em}
 \begin{adjustwidth}{1cm}{0pt}
-    \begin{itemize}
-        \item[\textit{Block} $\rightarrow$ ]  rappresenta il numero del blocco all'interno della blockchain. Ogni volta che un nuovo blocco viene aggiunto, questo numero aumenta progressivamente.
-        \item[\textit{Nonce} $\rightarrow$ ]  è un valore, spesso composto da 32 bit (come nel caso di Bitcoin), fondamentale perché viene cercato dai miner per generare un hash valido che soddisfi i requisiti di difficoltà della chain. Serve a modificare l’input del calcolo dell’hash e viene aggiornato continuamente durante il processo di mining.
-        \item [\textit{Timestamp} $\rightarrow$ ] indica il momento esatto in cui il blocco è stato aggiunto alla blockchain.
-        \item [\textit{Transaction} $\rightarrow$ ] contiene o un valore (ad esempio un importo monetario), o il corpo del messaggio, o uno smart contract.
-        \item [\textit{Transaction n} $\rightarrow$ ] si riferisce a una specifica transazione tra le diverse transazioni presenti all’interno del blocco.
-        \item [\textit{Prev Hash} $\rightarrow$ ] è l’hash del blocco precedente, che funge da chiave di collegamento tra i blocchi. Questo meccanismo garantisce che ogni blocco sia dipendente dal precedente, creando una catena ininterrotta.
-        \item [\textit{Hash} $\rightarrow$ ] rappresenta l’impronta digitale del blocco. È un valore alfanumerico unico calcolato applicando una funzione hash. L’hash è deterministico, nel senso che lo stesso input produrrà sempre lo stesso hash; tuttavia, non è possibile risalire ai dati originali partendo dall’hash. Ogni minima modifica ai dati genera un hash completamente diverso, garantendo così l’integrità e l’immutabilità delle informazioni.
+    \begin{itemize}[itemsep=1ex]
+        \item[\textbullet\ \textit{Block} $\rightarrow$ ]  rappresenta il numero del blocco all'interno della blockchain. Ogni volta che un nuovo blocco viene aggiunto, questo numero aumenta progressivamente;
+        \item[\textbullet\ \textit{Nonce} $\rightarrow$ ]  è un valore, spesso composto da 32 bit (come nel caso di Bitcoin), fondamentale perché viene cercato dai miner per generare un hash valido che soddisfi i requisiti di difficoltà della chain. Serve a modificare l’input del calcolo dell’hash e viene aggiornato continuamente durante il processo di mining;
+        \item [\textbullet\ \textit{Timestamp} $\rightarrow$ ] indica il momento esatto in cui il blocco è stato aggiunto alla blockchain;
+        \item [\textbullet\ \textit{Transaction} $\rightarrow$ ] contiene o un valore (ad esempio un importo monetario), o il corpo del messaggio, o uno smart contract;
+        \item [\textbullet\ \textit{Transaction n} $\rightarrow$ ] si riferisce a una specifica transazione tra le diverse transazioni presenti all’interno del blocco;
+        \item [\textbullet\ \textit{Prev Hash} $\rightarrow$ ] è l’hash del blocco precedente, che funge da chiave di collegamento tra i blocchi. Questo meccanismo garantisce che ogni blocco sia dipendente dal precedente, creando una catena ininterrotta;
+        \item [\textbullet\ \textit{Hash} $\rightarrow$ ] rappresenta l’impronta digitale del blocco. È un valore alfanumerico unico calcolato applicando una funzione hash. L’hash è deterministico, nel senso che lo stesso input produrrà sempre lo stesso hash; tuttavia, non è possibile risalire ai dati originali partendo dall’hash. Ogni minima modifica ai dati genera un hash completamente diverso, garantendo così l’integrità e l’immutabilità delle informazioni.
     \end{itemize}
 \end{adjustwidth}
+\vspace{1em}
 \begin{figure}[t]
     \centering
     \includegraphics[width=0.8\textwidth]{Immagini/structure of block.png}
@@ -29,9 +31,9 @@ Essendo basato sulla blockchain, Bitcoin è completamente decentralizzato: non �
 \\Un’altra caratteristica fondamentale di Bitcoin è la disintermediazione: ogni transazione coinvolge direttamente il mittente e il destinatario che raggiungono il consenso tramite l’approvazione della rete. Bitcoin è quindi costituito da una rete di sistemi indipendenti, i nodi, capaci di mantenere un registro univoco e condiviso delle transazioni. Questo sistema garantisce che un singolo bitcoin non possa essere speso più di una volta.\\
 In tal modo, Bitcoin soddisfa le funzioni critiche di ogni valuta:
 \begin{itemize}
-\item Immagazzinare valore.
-\item Essere un’entità contabile.
-\item Trasferire valore tra le parti.
+\item immagazzinare valore;
+\item essere un’entità contabile;
+\item trasferire valore tra le parti.
 \end{itemize}
 La sua blockchain è di tipo permissionless, il che significa che chiunque può eseguire il software del nodo e collegarsi alla rete senza alcuna forma di autenticazione. In altre parole, chiunque può unirsi alla rete senza necessità di approvazioni o permessi da parte di un’autorità centrale.
 \\Un elemento fondamentale è il wallet che consente agli utenti di gestire i propri bitcoin, conservati in veri e propri conti. Ogni bitcoin è associato a un address, protetto da una coppia di chiavi crittografiche.
@@ -39,16 +41,17 @@ La chiave pubblica rappresenta l’indirizzo del conto ed è accessibile a tutti
 \\Bitcoin utilizza la crittografia asimmetrica, un sistema inventato nel 1976 da Whitfield Diffie e Martin Hellman. Questo metodo permette di cifrare con una chiave (pubblica) un messaggio che può essere decifrato solo con l’altra chiave (privata), e viceversa, ciò determina due vantaggi principali.
 Il primo è l'Hashing e il secondo è la firma digitale.
 \\L'hashing trasforma qualsiasi quantità di dati in una stringa cifrata di dimensioni fisse, chiamata digest e comporta numerosi vantaggi in quanto è: 
+\vspace{1em}
 \begin{adjustwidth}{1cm}{0pt}
-    \begin{itemize}
-        \item[\textit{deterministico} $\rightarrow$ ] lo stesso input produce sempre lo stesso digest.
-        \item [\textit{a lunghezza fissa} $\rightarrow$ ] il digest ha una lunghezza predeterminata, indipendentemente dalla dimensione dell’input.
-        \item [\textit{unico} $\rightarrow$ ] è estremamente improbabile che due input diversi generino lo stesso digest.
-        \item [\textit{non invertibile} $\rightarrow$ ] è impossibile risalire all’input originale partendo dal digest.
-        \item [\textit{instabile} $\rightarrow$ ] una minima modifica all’input genera un digest completamente diverso.
+    \begin{itemize}[itemsep=1.5ex]
+        \item[\textbullet\ \textit{deterministico} $\rightarrow$ ] lo stesso input produce sempre lo stesso digest;
+        \item [\textbullet\ \textit{a lunghezza fissa} $\rightarrow$ ] il digest ha una lunghezza predeterminata, indipendentemente dalla dimensione dell’input;
+        \item [\textbullet\ \textit{unico} $\rightarrow$ ] è estremamente improbabile che due input diversi generino lo stesso digest;
+        \item [\textbullet\ \textit{non invertibile} $\rightarrow$ ] è impossibile risalire all’input originale partendo dal digest;
+        \item [\textbullet\ \textit{instabile} $\rightarrow$ ] una minima modifica all’input genera un digest completamente diverso.
     \end{itemize}
 \end{adjustwidth}
-\newpage
+\vspace{1em}
 L'altro grosso vantaggio è la firma digitale che garantisce unicità e non ripudiabilità. 
 \\Quando un utente X invia a un utente Y un messaggio firmato digitalmente, X crea l’hash del messaggio e lo cifra con la propria chiave privata. Y, ricevendo il messaggio, può verificare l’hash con la chiave pubblica di X, garantendo così l’integrità del messaggio e la validità del mittente.
 \begin{figure}[h]
@@ -77,10 +80,10 @@ A questo punto, i nodi partecipano a una competizione crittografica per individu
 In questo ambito si sente spesso parlare di fork \cite{Blockchain_tecnologia_e_applicazioni_per_il_business}, ma non è sempre chiaro cosa si intenda con questo termine e cosa effettivamente comporti. Sebbene venga spesso utilizzato per indicare la divisione di una blockchain, in realtà esso racchiude un insieme di diversi possibili scenari. 
 \\Una fork è una situazione in cui si verifica uno dei seguenti scenari:
 \begin{itemize}
-\item Può accadere che due o più nodi trovino contemporaneamente una soluzione valida. In tal caso si generano due blocchi con lo stesso genitore, creando una biforcazione nella catena, detta fork. Quando viene individuato il blocco successivo, l’algoritmo seleziona la catena più lunga (in termini di difficoltà complessiva) come valida. Questo caso viene denominato come fork regolare.
-\item Le regole della Blockchain sono cambiate in maniera retrocompatibile e tutti i nodi condividono la stessa cronologia delle transazioni, in questo caso si tratta di soft fork e non c’è una divisione della blockchain.
-\item Le regole della Blockchain sono cambiate in maniera non retrocompatibile, ma tutti i nodi si aggiornano alle nuove regole e condividono la stessa cronologia delle transazioni, anche in questo caso non si ha una divisione della blockchain, ma si tratta di un hard fork.
-\item Le regole della blockchain sono cambiate in maniera non retrocompatibile e nodi diversi hanno opinioni diverse sulle regole della blolckchain, non condividendo la stessa cronologia delle transazioni, abbiamo quindi un hard fork con chain split, dato che avviene una divisione della chain e il consenso sulla cronologia delle transazioni e perso definitivamente.
+    \item può accadere che due o più nodi trovino contemporaneamente una soluzione valida. In tal caso si generano due blocchi con lo stesso genitore, creando una biforcazione nella catena, detta fork. Quando viene individuato il blocco successivo, l’algoritmo seleziona la catena più lunga (in termini di difficoltà complessiva) come valida. Questo caso viene denominato come fork regolare;
+    \item le regole della Blockchain sono cambiate in maniera retrocompatibile e tutti i nodi condividono la stessa cronologia delle transazioni, in questo caso si tratta di soft fork e non c’è una divisione della blockchain;
+    \item le regole della Blockchain sono cambiate in maniera non retrocompatibile, ma tutti i nodi si aggiornano alle nuove regole e condividono la stessa cronologia delle transazioni, anche in questo caso non si ha una divisione della blockchain, ma si tratta di un hard fork;
+    \item le regole della blockchain sono cambiate in maniera non retrocompatibile e nodi diversi hanno opinioni diverse sulle regole della blolckchain, non condividendo la stessa cronologia delle transazioni, abbiamo quindi un hard fork con chain split, dato che avviene una divisione della chain e il consenso sulla cronologia delle transazioni e perso definitivamente.
 \end{itemize}
 Questo criterio, basato sul "principio di maggior lavoro", permette a tutti i nodi di concordare su una versione univoca della blockchain e di risolvere le biforcazioni. Un blocco viene considerato finalizzato, quando sono stati generati almeno sei blocchi successivi. Questo livello di profondità rende economicamente insostenibile, per una minoranza di nodi malintenzionati, modificare i dati della blockchain, poiché richiederebbe un effort computazionale estremamente elevato pari al 51\% della potenza totale di calcolo del network e, anche se ipoteticamente un miner riuscisse a raggiungere tale potenza, non sarebbe comunque in grado di modificare le vecchie transazioni, poiché dovrebbe ricalcolare la PoW di tutti i blocchi successivi, mentre gli altri miner onesti continuano a minare sulla blockchain corretta. Un attacco di questo tipo richiederebbe l’utilizzo di una quantità incredibile di risorse per l’attacker. Se qualcuno effettivamente riuscisse a mettere insieme più del 51\% della potenza di calcolo, sarebbe molto più redditizio per lui seguire le regole della blockchain.
 Nonostante i numerosi vantaggi che il Proof of Work offre, questo algoritmo di consenso presenta alcune significative criticità. La principale è il massiccio consumo di energia, un aspetto che, paradossalmente, costituisce anche uno dei suoi punti di forza, rendendo estremamente costoso e complesso attaccare la rete.

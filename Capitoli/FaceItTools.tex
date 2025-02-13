@@ -46,21 +46,21 @@ Learning Analytics Platform} \cite{ocheja2018connecting}, in quanto presenta le 
 \end{figure}
 \\Nello specifico la Blockchain di FaceItTools sarà gestita da 3 smart contract:
 \begin{enumerate}
-    \item RLPC (Registrar – Learning Provider Contract) $\rightarrow$ Regola l’accesso dei provider alla blockchain, controllando che siano autorizzati prima di farli entrare. Può utilizzare ID speciali o Token per verificarne la loro identità. In questo modo si garantisce che solo istituzioni verificate e riconosciute possono partecipare.
-    \item LLPC (Learner – Learning Provider Contract) $\rightarrow$ Rappresenta il legame tra lo studente e il provider, indicando dove sono i suoi dati.
+    \item RLPC (Registrar – Learning Provider Contract) $\rightarrow$ regola l’accesso dei provider alla blockchain, controllando che siano autorizzati prima di farli entrare. Può utilizzare ID speciali o Token per verificarne la loro identità. In questo modo si garantisce che solo istituzioni verificate e riconosciute possono partecipare;
+    \item LLPC (Learner – Learning Provider Contract) $\rightarrow$ rappresenta il legame tra lo studente e il provider, indicando dove sono i suoi dati;
           \\Esso contiene:
             \begin{itemize}
-                \item Il nome dello studente e l'indirizzo del database del provider.
-                \item L’hash crittografico dei dati, per verificare che non siano stati modificati.
-                \item Le query che il provider può eseguire per recuperare i dati.
-                \item La lista di permessi di accesso, gestita dallo studente.
+                \item il nome dello studente e l'indirizzo del database del provider;
+                \item l’hash crittografico dei dati, per verificare che non siano stati modificati;
+                \item le query che il provider può eseguire per recuperare i dati;
+                \item la lista di permessi di accesso, gestita dallo studente;
             \end{itemize}
-            \'E fondamentale in quanto consente ai dati reali di restare nel database del provider e non nella Blockchain andando a proteggere la privacy degli studenti.
+            \'E fondamentale in quanto consente ai dati reali di restare nel database del provider e non nella Blockchain andando a proteggere la privacy degli studenti;
     \item IC (Index Contract) $\rightarrow$ Un indice globale che collega studenti, provider e i loro contratti per facilitare le ricerche.
             \\\'E organizzato in due Hash Table:
             \begin{itemize}
-                \item Mappa Studenti $\rightarrow$ LLPC (ogni studente vede i suoi contratti).
-                \item Mappa Provider $\rightarrow$ LLPC (ogni provider vede i contratti con gli studenti e con altri provider).
+                \item Mappa Studenti $\rightarrow$ LLPC (ogni studente vede i suoi contratti);
+                \item Mappa Provider $\rightarrow$ LLPC (ogni provider vede i contratti con gli studenti e con altri provider);
             \end{itemize}
             \'E importante perchè se un provider vuole accedere ai dati di uno studente da un altro provider, viene creata una richiesta che deve essere approvata dallo studente, quindi funziona come un registro globale che collega studenti provider e dati, garantendo sicurezza e trasparenza.
 \end{enumerate}
