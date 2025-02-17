@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.1.9)  13 FEB 2025 15:32
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.1.9)  17 FEB 2025 11:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1538,7 +1538,7 @@ nterplay Between Decentralization and Privacy: The Case of
 ]
 
 [38]
-runsystem(latexminted cleantemp  --timestamp 20250213153200 FAD58DE7366495DB465
+runsystem(latexminted cleantemp  --timestamp 20250217110600 FAD58DE7366495DB465
 0CFEFAC2FCD61)...disabled (restricted).
 
  (main.aux)
@@ -1564,7 +1564,7 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  36116 strings out of 408685
  765095 string characters out of 5749082
- 1536998 words of memory out of 5000000
+ 1541998 words of memory out of 5000000
  58697 multiletter control sequences out of 15000+600000
  562063 words of font info for 77 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
