@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.1.9)  17 FEB 2025 11:06
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.1.9)  21 FEB 2025 10:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1410,13 +1410,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--9
 
 Underfull \hbox (badness 10000) in paragraph at lines 3--10
 \TU/TimesNewRoman(0)/m/n/12 La delicata e importante tematica della privacy e d
-ella sicurezza affrontata nel
+ella sicurezza, affrontata nel
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 3--10
-\TU/TimesNewRoman(0)/m/n/12 capitolo precedente influenza fortemente anche il s
-ettore del Learning Analytics.
+\TU/TimesNewRoman(0)/m/n/12 capitolo precedente, influenza fortemente anche il 
+settore del Learning Analytics.
  []
 
 
@@ -1538,7 +1538,16 @@ nterplay Between Decentralization and Privacy: The Case of
 ]
 
 [38]
-runsystem(latexminted cleantemp  --timestamp 20250217110600 FAD58DE7366495DB465
+
+[39
+
+
+]
+
+[40
+
+]
+runsystem(latexminted cleantemp  --timestamp 20250221100634 FAD58DE7366495DB465
 0CFEFAC2FCD61)...disabled (restricted).
 
  (main.aux)
@@ -1551,7 +1560,7 @@ L3 programming layer <2024-12-09>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 7688447EBD2A53F687F02AFAFB3A482D;6836.
+(rerunfilecheck)             Checksum: C74F68630AA771C5A181E6EB19FF5A37;6952.
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
 (biblatex)                main
@@ -1564,10 +1573,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  36116 strings out of 408685
  765095 string characters out of 5749082
- 1541998 words of memory out of 5000000
+ 1542134 words of memory out of 5000000
  58697 multiletter control sequences out of 15000+600000
  562063 words of font info for 77 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  94i,8n,93p,1905b,6949s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (48 pages).
+Output written on main.pdf (50 pages).

@@ -1,6 +1,6 @@
 \chapter{Learning Analytics}
 \section{Cos'è il Learning Analytics}
-La delicata e importante tematica della privacy e della sicurezza affrontata nel capitolo precedente influenza fortemente anche il settore
+La delicata e importante tematica della privacy e della sicurezza, affrontata nel capitolo precedente, influenza fortemente anche il settore
 del Learning Analytics.
 \begin{wrapfigure}{r}{0.25\textwidth}
     \centering
@@ -11,7 +11,7 @@ del Learning Analytics.
 Questo particolare ramo emergente dell'educazione si occupa di misurare e analizzare i dati ottenuti dagli studenti e dai loro corsi
 di studio, con l'obiettivo di ottimizzare l'esperienza educativa e migliorare non solo i loro risultati, ma anche i metodi di insegnamento. 
 \\Grazie alla crescente digitalizzazione e all'adozione di strumenti 
-come i Learning Management System (LMS), i social media e i corsi online aperti e massivi (MOOCs), è possibile raccogliere una grande quantità di dati relativi al comportamento degli studenti, 
+come i Learning Management System (LMS), i social media e i corsi online aperti e massivi (MOOCs) è possibile raccogliere una grande quantità di dati relativi al comportamento degli studenti, 
 ai loro risultati e alle interazioni con i materiali didattici. 
 \\Il Learning Analytics offre un enorme aiuto a tutti gli stakeholder coinvolti nel processo educativo:
 \begin{itemize}
@@ -82,10 +82,10 @@ fosse inserita in un ecosistema che la favorisse soddisfandone già a sua volta 
 
 \newpage
 \section{EduCTX}
-La più importante piattaforma nel settore educativo basata su Blockchain è EduCTX, sviluppata da un consorzio di università europee sfrutta la Blockchain 2.0 di Ethereum con lo scopo di gestire i crediti e le valutazioni nell'istruzione superiore.
+La più importante piattaforma nel settore educativo basata su Blockchain è EduCTX; sviluppata da un consorzio di università europee, sfrutta la Blockchain 2.0 di Ethereum con lo scopo di gestire i crediti e le valutazioni nell'istruzione superiore.
 \\In ambito di Learning Analytics è molto importante l'apporto di EduCTX, in quanto permette di raccogliere i certificati e i risultati degli studenti sui quali effettuare successivamente le analisi.
 \\Al momento questa piattaforma presenta due versioni, la versione 1.2 sulla quale noi focalizzeremo il nostro interesse in quanto costruita su Blockchain
-sfruttando il portale di registrazione MetaMask e la versione 2.0 che invece si basa su Microsoft Azure Active Directory un servizio di gestione d'identità centralizzato basato su cloud.
+sfruttando il portale di registrazione MetaMask e la versione 2.0 che invece si basa su Microsoft Azure Active Directory, un servizio di gestione d'identità centralizzato basato su cloud.
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.85\textwidth]{Immagini/EduCTX.PNG}
@@ -118,19 +118,19 @@ Utilizzando il proprio indirizzo blockchain, lo studente, in qualità di destina
 \subsection{Registrazione degli HEI}
 Qualsiasi HEI accreditato e i suoi membri potranno entrare a far parte della rete. 
 Per aderire, l’HEI dovrà configurare un nodo di rete per mantenere un’infrastruttura globale e una rete sicura. 
-Un nodo completamente funzionante trasmette messaggi attraverso la rete, primo passo del processo di transazione che porta alla conferma di un blocco, e quindi alla conferma del trasferimento dei crediti ECTX agli studenti per i corsi completati. 
+Un nodo completamente funzionante trasmette messaggi attraverso la rete, primo passo del processo di transazione che porta alla conferma di un blocco e quindi alla conferma del trasferimento dei crediti ECTX agli studenti per i corsi completati. 
 Il nodo HEI include anche il client blockchain EduCTX principale nel proprio server, con la replica completa del registro blockchain. Questo aumenta la sicurezza, poiché un numero maggiore di nodi rende la rete più sicura.
-Gli HEI, e quindi i nodi, non minano le transazioni, poiché la piattaforma blockchain EduCTX è basata sul protocollo di consenso DPoS. Pertanto, non è necessaria alcuna potenza di calcolo da parte del nodo HEI. 
+Gli HEI, e quindi i nodi, non minano le transazioni, poiché la piattaforma blockchain EduCTX è basata sul protocollo di consenso DPoS. Pertanto non è necessaria alcuna potenza di calcolo da parte del nodo HEI. 
 Questo approccio è inoltre appropriato dal punto di vista della sicurezza per la rete EduCTX, poiché peer casuali non possono unirsi alla rete e generare nuovi token ECTX attraverso il mining. 
-\\Di conseguenza, la blockchain EduCTX può essere considerata una versione consortile di una blockchain, ovvero una versione specifica di permissioned.
-\\Ogni nuovo HEI che si unisce alla rete e viene verificato dagli altri membri HEI, riceve un’assegnazione iniziale di token ECTX e viene invitato a configurare un nodo di rete. 
+\\Di conseguenza la blockchain EduCTX può essere considerata una versione consortile di una blockchain, ovvero una versione specifica di permissioned.
+\\Ogni nuovo HEI, che si unisce alla rete e viene verificato dagli altri membri HEI, riceve un’assegnazione iniziale di token ECTX e viene invitato a configurare un nodo di rete. 
 \\Essendo una blockchain DPoS, ogni membro HEI può registrarsi come delegato nella piattaforma blockchain EduCTX e la comunità HEI vota un delegato che conferma le transazioni e sigilla i blocchi. 
 Questo implica che la comunità vota per l’HEI più attivo e continuo nel suo lavoro. 
 \\Per garantire una versione permissioned della piattaforma blockchain e una comunità democratica e senza scopo di lucro, la ricompensa per il forging è nulla \cite{EduCTX}.
 
 \subsection{Registrazione degli studenti}
 Quando uno studente si immatricola presso un HEI (membro della rete blockchain EduCTX), l'istituto emette un ID studente e genera un nuovo indirizzo blockchain per lo studente, contenente una chiave pubblica e una chiave privata
-e anche un nuovo indirizzo blockchain con firma multipla 2-2 utilizzando la propria chiave pubblica e quella appena generata dello studente. 
+e anche un nuovo indirizzo blockchain con firma multipla 2-2, utilizzando la propria chiave pubblica e quella appena generata dello studente. 
 \\Questo indirizzo con firma multipla, insieme all'ID studente, viene memorizzato nel database dell'HEI.
 \\L'HEI trasferisce 0,1 token ECTX all'indirizzo blockchain con firma multipla 2-2 dello studente e, tramite un canale privato, fornisce allo studente le informazioni necessarie per configurare il portafoglio blockchain. 
 \\Le informazioni fornite includono:
@@ -145,7 +145,7 @@ Con le informazioni ricevute, lo studente configura il proprio portafoglio block
 \section{Sony Global Education e Blockcerts}
 Due importanti menzioni d'onore da fare nell'ambito dell'istruzione basata su Blockchain sono Sony Global Education e Blockcerts.
 \\La prima è a tutti gli effetti una piattaforma di Learning Analytics basata su una Blockchain permissioned, sviluppata per l'appunto da Sony, con l'obiettivo di raccogliere i dati 
-sull'appredimento dei giovanissimi andando a migliorarne il loro percorso di apprendimento, con un focus particolare sullo sviluppo della loro creatività.
+sull'appredimento dei giovanissimi, andando a migliorarne il loro percorso di apprendimento, con un focus particolare sullo sviluppo della loro creatività.
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.65\textwidth]{Immagini/Sony_Global_Education_logo.PNG}
@@ -162,4 +162,4 @@ ma successivamente ha iniziato a supportare Ethereum in modo tale da poter sfrut
     \includegraphics[width=0.65\textwidth]{Immagini/Blockcerts_homepage.PNG}
     \caption{Blockcerts homepage}
 \end{figure}
-\\Da fine 2019 Blockcerts è stata adottata anche dall'università di Padova, che ha iniziato a rilasciare i certificati di laurea in formato digitale scaricabli dalla piattaforma Bestr.
+\\Da fine 2019 Blockcerts è stata adottata anche dall'università di Padova che ha iniziato a rilasciare i certificati di laurea in formato digitale scaricabli dalla piattaforma Bestr.
